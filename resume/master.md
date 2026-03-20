@@ -1,12 +1,9 @@
-# Vamshi Singam
-
-**Lead Data Engineer | Agentic AI Solutions Architect**
-
-**+1 346-666-1192**
-
-<u>vamshi455@gmail.com</u>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vamshi-singam-82963556/) [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/vamshi455)
+<table width="100%">
+<tr>
+<td><h1>Vamshi Singam</h1><b>Lead Data Engineer | Agentic AI Solutions Architect</b></td>
+<td align="right">+1 346-666-1192<br/>vamshi455@gmail.com<br/><a href="https://www.linkedin.com/in/vamshi-singam-82963556/">LinkedIn</a> · <a href="https://github.com/vamshi455">GitHub</a></td>
+</tr>
+</table>
 
 **Professional Summary:**
 
