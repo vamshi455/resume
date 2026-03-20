@@ -328,39 +328,40 @@ Dedicated SQL Pool, Azure DevOps, Python, SQL, Power BI**
 
 **Project Description:**
 
-Led the KittyHawk Modernization initiative to migrate Marathon
-Petroleum’s commodity trading data from the legacy KittyHawk SQL Server
-– which receives real-time data from the Right Angle CTRM application –
-into Azure Synapse (I&DP). Architected a two-schema design:
-Replica_Kittyhawk via Qlik CDC replication and kh_core curated
-analytical layer via ADF, across 98 master and transaction tables
-covering movements, bulk transfers, inventory, and financials.
+Engineered end-to-end data migration pipelines to modernize a legacy
+SQL Server (KittyHawk) receiving data from the Right Angle CTRM
+application onto Azure Synapse (I&DP platform), spanning 98 master and
+transaction tables across two schemas — Replica_Kittyhawk (CDC replica)
+and kh_core (curated analytical layer).
 
 **Roles and Responsibilities:**
 
-- Architected end-to-end pipeline Right Angle CTRM to KittyHawk SQL
-  Server to Azure Synapse using Qlik Replication for CDC ingestion into
-  Replica_Kittyhawk schema and ADF-driven MERGE upserts into kh_core
-  curated schema across 98 tables covering movements, bulk transfers,
-  inventory history, inventory forecast, and financial data.
+- Designed and implemented Qlik Replication jobs for CDC-based ingestion
+  into Replica_Kittyhawk, followed by ADF pipelines performing FULL LOAD
+  and incremental delta loads into kh_core using watermark-based change
+  tracking across 98 tables.
 
-- Built ADF master pipelines KH_PL_Master_Main/Child with 5 wave-based
-  parallel processing groups on 15-minute triggers and transaction delta
-  pipelines KH_PL_Transac_Delta_Main/Child with 30-minute
-  watermark-based incremental loads; implemented Watermark Persistence
-  framework tracking high/low watermarks per table across M1-M5 master
-  waves.
+- Built MERGE-based upsert stored procedures (T-SQL) for complex
+  transaction tables — Movement, MovementTransaction (MPC and MPLX
+  variants), InventoryHistory, InventoryForecast, and
+  BulkTransferExpense — with schema-aware column mappings.
 
-- Implemented MERGE-based upsert stored procedures for Movement,
-  MovementTransaction (MPC and MPLX variants), BulkTransferExpense,
-  InventoryHistory, and InventoryForecast; managed complete
-  source-to-target column mapping per pipeline specification with
-  REST-based concurrency controls preventing overlapping runs.
+- Architected parent-child pipeline patterns (KH_PL_Master_Main/Child,
+  KH_PL_Transac_Delta_Main/Child) with concurrency guards, runtime
+  status checks, and automated email alerting to prevent duplicate
+  execution across 15-minute and 30-minute scheduled triggers.
 
-- Deployed across Dev/QA/Prod Synapse environments with Azure DevOps
-  CI/CD; built Power BI reporting layer on kh_core schema for CTRM
-  analytics including movement tracking, bulk transfer expense analysis,
-  inventory forecasting, and trading operations dashboards.
+- Implemented watermark persistence framework tracking high/low
+  watermarks per table across M1-M5 master waves, ensuring idempotent
+  reloads and data consistency.
+
+- Integrated Azure Log Analytics for pipeline monitoring and error
+  handling; ensured SLA adherence across Dev, QA, and Production
+  Synapse environments with Azure DevOps CI/CD.
+
+- Built Power BI reporting layer on kh_core schema for CTRM analytics
+  including movement tracking, bulk transfer expense analysis, inventory
+  forecasting, and trading operations dashboards.
 
 **\#5 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
 Engineer**
