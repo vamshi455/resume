@@ -1,9 +1,8 @@
-<table width="100%">
-<tr>
-<td><h1>Vamshi Singam</h1><b>Lead Data Engineer | Agentic AI Solutions Architect</b></td>
-<td align="right">+1 346-666-1192<br/>vamshi455@gmail.com<br/><a href="https://www.linkedin.com/in/vamshi-singam-82963556/">LinkedIn</a> · <a href="https://github.com/vamshi455">GitHub</a></td>
-</tr>
-</table>
+# Vamshi Singam
+
+**Lead Data Engineer | Agentic AI Solutions Architect**
+
+**+1 346-666-1192** | vamshi455@gmail.com | [LinkedIn](https://www.linkedin.com/in/vamshi-singam-82963556/) | [GitHub](https://github.com/vamshi455)
 
 **Professional Summary:**
 
