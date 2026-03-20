@@ -58,9 +58,6 @@
   standards. Built custom data quality, lineage, and lifecycle
   management frameworks across governed data platforms.
 
-- Proficient in utilizing TAMR MDM tool for data mastering and
-  management, ensuring data quality, consistency, and integration across
-  diverse datasets.
 
 **Domain Knowledge:**
 
