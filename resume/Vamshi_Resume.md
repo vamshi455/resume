@@ -23,16 +23,12 @@
   with product, data, and platform teams to modernize AI/data platforms,
   optimize pipelines, and operationalize AI use cases at scale.
 
-- GenAI/AI Engineering: Building production-grade AI solutions using
-  Azure AI Foundry, Azure OpenAI Service, Azure AI Search (vector +
-  hybrid RAG), Azure Prompt Flow for LLM orchestration, and Azure
-  Machine Learning. Developed multi-agent systems with
-  LangChain/LangGraph, agentic workflows with AutoGen and Semantic
-  Kernel, RAG pipelines with FAISS/Chroma/Azure AI Search, and
-  AI-powered data analytics tools integrating Claude API, OpenAI GPT-4,
-  and Amazon Bedrock. Active GitHub portfolio (github.com/vamshi455)
-  showcasing GenAI and AI engineering capabilities across oil & gas,
-  loyalty, and enterprise domains.
+- GenAI/AI Engineering: Building production-grade AI solutions on
+  Azure AI Foundry — developing multi-agent systems, RAG pipelines
+  (Azure AI Search vector + hybrid), and LLM orchestration using
+  Azure Prompt Flow and Azure OpenAI Service. Active GitHub portfolio
+  (github.com/vamshi455) showcasing GenAI and AI engineering
+  capabilities across oil & gas, loyalty, and enterprise domains.
 
 - Cloud Platforms & Data Processing: Snowflake, Azure Databricks, Data
   Factory, Synapse Analytics, Stream Analytics, DBT (data build tools),
@@ -49,11 +45,12 @@
 
 - Database Management: SQL Server, Oracle, PostgreSQL
 
-- Application Development: Designed & Developed Windows-based Database
-  Migration tools using C#.Net for cross-database migrations (RDBMS based).
-  Designed & Developed Data Quality Automation Tools for project-specific
-  use cases. Other tools: ASP.Net, VB.NET, SSIS, SSAS, SSRS, MDX, DAX,
-  Excel Macros, Crystal Reports, Power BI
+- Application Development: 15+ years of full-stack application development
+  experience building enterprise web applications (ASP.NET, VB.NET, C#.Net),
+  custom Windows desktop tools (Database Migration Tool for cross-RDBMS
+  migrations, Data Quality Automation Framework), and configuration
+  management web interfaces (React JS, C#.Net). Built end-to-end solutions
+  from UI design through database layer across multiple industries.
 
 - Implement robust access control mechanisms to restrict data access to
   authorized personnel only along with experience in implementing global
@@ -92,7 +89,7 @@
 | AWS Lambda | 1 Year | AWS S3 | 1 Year | C#.Net | 15 Years |
 | dbt (Data Build Tools) | 2 Years | Delta Lake | 5 Years | FastAPI | 1 Year |
 | Fivetran | 1 Year | GCS | 1 Year | GitHub | 10 Years |
-| JavaScript | 15 Years | Jenkins | 2 Years | LangChain/LangGraph | 1 Year |
+| JavaScript | 15 Years | Jenkins | 2 Years | React JS | 2 Years |
 | MDM | 5 Years | Microsoft Fabric | 1 Year | MLflow | 1 Year |
 | NoSQL | 7 Years | PostgreSQL | 2 Years | Power BI | 10 Years |
 | PowerShell | 15 Years | Python | 10 Years | Snowflake | 2 Years |
@@ -314,9 +311,6 @@ My Roles and Responsibilities:
 
 - Architected ADLS container structure following medallion pattern with
   automated file archival and retention policies.
-
-- Integrated AWS S3 for cross-cloud data replication with Glue ETL and
-  Lambda for event-driven processing triggers.
 
 - Deployed solution across Dev, QA, and Prod environments with
   environment-specific configurations and retry policies.
