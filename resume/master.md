@@ -252,7 +252,7 @@ Gen2, Azure Dedicated SQL Pool, Python, SQL, Power BI**
 
 **Project Objectives:**
 
-Efficient Data Extraction: Extract loyalty program data from PAR Stuzo
+Efficient Data Extraction: Extract loyalty program data from vendor
 SFTP sources, encompassing 29 data domains including customer
 information, transactions, loyalty events, settlements, campaigns, and
 surveys critical for Marathon's Miles program operations and analytics.
@@ -290,8 +290,8 @@ My Roles and Responsibilities:
 - Developed PySpark processing notebooks with predefined schemas for all
   domains, ETL metadata enrichment, and batch processing capabilities.
 
-- Implemented stored procedures for merge operations across replica_par,
-  udm_core, and mdm_core schemas with comprehensive execution logging.
+- Implemented stored procedures for merge operations across replica,
+  core, and master data schemas with comprehensive execution logging.
 
 - Optimized data processing performance by converting MERGE operations
   to CTAS patterns, reducing processing times from 12+ hours to under 60
@@ -330,38 +330,36 @@ Dedicated SQL Pool, Azure DevOps, Python, SQL, Power BI**
 
 Engineered end-to-end data migration pipelines to modernize a legacy
 SQL Server (KittyHawk) receiving data from the Right Angle CTRM
-application onto Azure Synapse (I&DP platform), spanning 98 master and
-transaction tables across two schemas — Replica_Kittyhawk (CDC replica)
-and kh_core (curated analytical layer).
+application onto Azure Synapse Analytics, spanning 98 master and
+transaction tables across two schemas — a CDC replica layer
+and a curated analytical layer.
 
 **Roles and Responsibilities:**
 
 - Designed and implemented Qlik Replication jobs for CDC-based ingestion
-  into Replica_Kittyhawk, followed by ADF pipelines performing FULL LOAD
-  and incremental delta loads into kh_core using watermark-based change
+  into the replica layer, followed by ADF pipelines performing full load
+  and incremental delta loads into the curated layer using watermark-based change
   tracking across 98 tables.
 
 - Built MERGE-based upsert stored procedures (T-SQL) for complex
-  transaction tables — Movement, MovementTransaction (MPC and MPLX
-  variants), InventoryHistory, InventoryForecast, and
-  BulkTransferExpense — with schema-aware column mappings.
+  transaction tables — movement, inventory, financial, and bulk transfer
+  transaction tables handling multiple business entity variants — with schema-aware column mappings.
 
-- Architected parent-child pipeline patterns (KH_PL_Master_Main/Child,
-  KH_PL_Transac_Delta_Main/Child) with concurrency guards, runtime
+- Architected parent-child pipeline patterns with concurrency guards, runtime
   status checks, and automated email alerting to prevent duplicate
   execution across 15-minute and 30-minute scheduled triggers.
 
 - Implemented watermark persistence framework tracking high/low
-  watermarks per table across M1-M5 master waves, ensuring idempotent
+  watermarks per table across multiple processing wave groups, ensuring idempotent
   reloads and data consistency.
 
 - Integrated Azure Log Analytics for pipeline monitoring and error
   handling; ensured SLA adherence across Dev, QA, and Production
   Synapse environments with Azure DevOps CI/CD.
 
-- Built Power BI reporting layer on kh_core schema for CTRM analytics
-  including movement tracking, bulk transfer expense analysis, inventory
-  forecasting, and trading operations dashboards.
+- Built Power BI reporting layer on the curated schema for commodity
+  trading analytics including movement tracking, expense analysis,
+  inventory forecasting, and trading operations dashboards.
 
 **\#5 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
 Engineer**
@@ -415,7 +413,7 @@ Marathon's midstream operations.
 **\#6 Shell Americas Retail – Houston, TX (Remote) \| Senior Data
 Engineer**
 
-**\[Downstream\] DARE (formerly AMDB – Fuel Rewards Program Database)
+**\[Downstream\] Fuel Rewards Data Platform
 -** May 2022 – Jul 2023
 
 **Azure Synapse Analytics, Azure Databricks (Pyspark), Azure DevOps,
@@ -429,7 +427,7 @@ key business decisions. Today’s data landscape is fragmented, with over
 20 data sources and no single, trusted data repository. This program is
 to identify, design & develop data objects which are critical for
 business use cases identified by a consulting firm to help Shell Fuel
-Rewards Program which is the direct beneficiary of this DARE project.
+Rewards Program which is the direct beneficiary of this data platform.
 
 1.  Data Ingestion – Connect to all source systems (All Retail OLTP
     applications) and ingest data.
@@ -444,8 +442,8 @@ Rewards Program which is the direct beneficiary of this DARE project.
 
     **Responsibilities:**
 
-- Design & Develop Ingestion module, process files into PREP Layer (make
-  data ready for curation)
+- Design & Develop Ingestion module, process files into staging layer for
+  curation readiness
 
 - Design & Develop Databricks notebooks to process the source files –
   Handling Incremental and Full load scenarios.
@@ -454,18 +452,17 @@ Rewards Program which is the direct beneficiary of this DARE project.
   PII (SSN, payment cards, loyalty IDs, contact info) — Column-Level
   Security with Dynamic Data Masking in Databricks, Row Access Policies
   for role-based data isolation, and data classification tagging to
-  comply with Shell's IRM and GDPR/CCPA requirements.
+  comply with internal risk management, GDPR, and CCPA requirements.
 
 - Design & Develop ADF pipelines for orchestrating the Databricks
   Notebooks
 
-- Parallelly process ingress files and process them into PREP Layer (for
-  curation)
+- Parallelly process ingress files and process them into staging layer for curation
 
 - Design & Develop DB Notebooks to automate SCD Type 2 process.
 
 - Design & Develop Data Security for PII (Personally Identifiable
-  Information) as per IRM (Internal Risk Management Rules)
+  Information) as per internal risk management policies
 
 - Design and Develop CI/CD for ADF, Azure Databricks and Web Interface
 
@@ -480,15 +477,10 @@ Python, Spark, React JS and C#.Net.**
 
 **Description:**
 
-Lepton is the critical first step in operationalizing data lake which
-gets Natural gas and Power trading data to provide a combined view of
-PNL, Limits Exposure, Manual Risk Adjustments, Transaction limits and
-Volumetric reporting, these reports will enable Traders with latest data
-and have them equipped with much required digital advantage in
-performing their day-to-day activities. Lepton not only automates data
-ingestion but also key functionality that must accompany ingestion to
-establish a complete foundation for analytics.  Data onboarding with
-Lepton automates:
+Built an enterprise data lake platform for natural gas and power
+trading, providing traders with a consolidated view of P&L, risk
+exposure, transaction limits, and volumetric reporting. The platform
+automates end-to-end data onboarding including:
 
 1.  Data Ingestion – from all enterprise and external data sources
 
@@ -532,19 +524,12 @@ Storage Gen2, Azure Functions, MuleSoft, Python, Spark**
 
 **Description:**
 
-VCS&O Optimization Engine will be a tool used every day by the value
-chain optimization decision makers across the P66 operating functions to
-enable better decisions for the general interest: Refinery
-Planning Staff, Commercial Traders & Schedulers, Marketing, Sales,
-Pricing & Supply Staff, VCS&O Optimization Directors.  VCO Optimization
-Engine will also leverage historical trend and performance data to
-enable better strategic planning, while giving users from VCS&O team,
-Marketing, Refining, Midstream Strategy Directors a lot of visibility
-around pricing. The Optimization Engine will move PSX from a
-localized spreadsheet-based optimization culture to an on-line system
-with consistent data, available to all users.  Major modules are GI
-Margin Tool, Crude Placement/Consumption Dashboard, Historical and
-Forecast Market Pricing Data, Inter-Month Product Demand Forecasting.
+Built a value chain supply optimization platform for daily use by
+refinery planning, commercial trading, marketing, and pricing teams.
+The platform replaced spreadsheet-based optimization with a centralized
+system providing consistent data and analytics. Key modules include
+margin analysis, crude placement dashboards, market pricing forecasts,
+and inter-month product demand forecasting.
 
 **Responsibilities:**
 
@@ -607,9 +592,9 @@ PowerShell, and Jenkins.**
 
 **Description:**
 
-Currently NRD project resides in SQL Server, Scope of this new project
-is to re-design the dataset keeping the downstream unaffected in Azure
-Data Warehouse as a separate database.
+Migrated an on-premises net revenue analytics dataset from SQL Server
+to Azure Data Warehouse while maintaining downstream reporting
+compatibility.
 
 - Design & Develop migration strategy for the existing dataset
   components from on premises to Azure Data Warehouse and ETL process to
@@ -625,9 +610,9 @@ Data Warehouse as a separate database.
 
 - Create ADF Pipelines for Dimensions (SCD Types - 2) and Fact Loads
 
-- Exploring the load performances between ADLA, DF Pipelines along with
-  Native SSIS ETL packages and accessing the migration of objects from
-  On-Premises to Azure Data Lake.
+- Benchmarked load performance across Azure Data Lake Analytics, Data
+  Factory pipelines, and native SSIS packages to determine optimal
+  migration strategy.
 
 - Exploring and adopting the best pricing model by analyzing the current
   azure pricing trends.
@@ -785,7 +770,7 @@ data.
 **Description:**
 
 Concurrently delivered two BI analytics projects at Microsoft: OA 3.0
-(OEM Activation supply chain reporting for OEM Operations, BG Finance,
+(OEM Activation supply chain reporting for OEM Operations, Business Group Finance,
 and Anti-Piracy teams) and LOTUS BIE (business intelligence platform
 for India regulatory compliance and partner activity separation).
 
@@ -796,7 +781,7 @@ for India regulatory compliance and partner activity separation).
   projects.
 
 - Designed and developed SSRS reports and SSAS cube analytics serving
-  Microsoft OEM Operations, BG Finance, and Anti-Piracy stakeholders.
+  Microsoft OEM Operations, Business Group Finance, and Anti-Piracy stakeholders.
 
 - Implemented cube performance tuning including partitioning strategies,
   aggregation optimization via AMO library, and MDX query optimization.

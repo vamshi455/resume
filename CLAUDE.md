@@ -54,6 +54,7 @@ Markdown-first resume management: master resume as single source of truth, tailo
 - Docx files: filename includes version or company name
 
 ## Rules
+- Do NOT use internal pipeline names (e.g., KH_PL_Master_Main), schema names (e.g., replica_par, kh_core), internal project codes (e.g., I&DP, VCS&O, NRD), or company-specific abbreviations that an external recruiter would not understand. Always generalize to descriptive terms (e.g., "curated analytical layer", "parent-child pipeline patterns", "value chain optimization platform").
 - Do NOT put specific content in README.md
 - `resume/master.md` is the single source of truth
 - Always convert md → docx when user approves changes
