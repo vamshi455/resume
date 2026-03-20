@@ -1,7 +1,6 @@
-> <img src="media/image1.png" style="width:0.79167in;height:0.60833in" />
-> Vamshi Singam
->
-> Lead Data Engineer
+# Vamshi Singam
+
+**Lead Data Engineer | Agentic AI Solutions Architect**
 
 **+1 346-666-1192**
 
@@ -11,7 +10,7 @@
 
 <https://github.com/vamshi455>
 
-**Professional Summary: **
+**Professional Summary:**
 
 - Agentic AI Solutions Architect and Lead Data Engineer with 20+ years
   of enterprise experience, designing multi-agent systems, MCP-driven
@@ -24,35 +23,6 @@
   with product, data, and platform teams to modernize AI/data platforms,
   optimize pipelines, and operationalize AI use cases at scale.
 
-- Cloud Platforms & Data Processing: Snowflake, Azure Databricks, Data
-  Factory, Synapse Analytics, Stream Analytics, DBT (data build tools),
-  Fivetran, Airflow, Cloud Storage (S3, GCS, ADLS)
-
-- Programming & Scripting: Python, Scala, JavaScript, C#.Net, SQL 
-
-- Database Management: SQL Server, Oracle, PostgreSQL
-
-- Develop highly efficient Batch & Realtime data pipelines for Ingesting
-  data from diverse set of source systems, including SAP EAM, Oracle P6,
-  Infor Visual & Titan (ERP), Nucleus (ETRM), Encore (ETRM), Oracle BRM,
-  Oracle ERP systems, and SAP ERP, AVEVA (IIOT), Intelex (EHSQ),
-  Epsilon, Excentus effectively leveraging their capabilities and
-  functionalities.
-
-- Implement robust access control mechanisms to restrict data access to
-  authorized personnel only along with experience in implementing global
-  standards like GDPR and CCPA. 
-
-- Utilizing tools & custom-built projects for data quality, lineage, and
-  lifecycle management to uphold robust data governance.
-
-- Employing advanced solutions for data system health monitoring and
-  data quality assurance. 
-
-- Proficient in utilizing TAMR MDM tool for data mastering and
-  management, ensuring data quality, consistency, and integration across
-  diverse datasets.
-
 - GenAI/AI Engineering: Building production-grade AI solutions using
   Azure AI Foundry, Azure OpenAI Service, Azure AI Search (vector +
   hybrid RAG), Azure Prompt Flow for LLM orchestration, and Azure
@@ -64,224 +34,74 @@
   showcasing GenAI and AI engineering capabilities across oil & gas,
   loyalty, and enterprise domains.
 
-- Other Tools used in past: ASP.Net, VB.NET, C#.Net, SQL Server, SSIS,
-  SSAS, SSRS, MDX, DAX, Excel Macros, Crystal Reports, Power BI
+- Cloud Platforms & Data Processing: Snowflake, Azure Databricks, Data
+  Factory, Synapse Analytics, Stream Analytics, DBT (data build tools),
+  Fivetran, Airflow, Cloud Storage (S3, GCS, ADLS)
 
-- Designed & Developed Windows based Database Migration tools using
-  C#.Net (window app) for cross database migrations (RDBMS based)
+- Develop highly efficient Batch & Realtime data pipelines for Ingesting
+  data from diverse set of source systems, including SAP EAM, Oracle P6,
+  Infor Visual & Titan (ERP), Nucleus (ETRM), Encore (ETRM), Oracle BRM,
+  Oracle ERP systems, and SAP ERP, AVEVA (IIOT), Intelex (EHSQ),
+  Epsilon, Excentus effectively leveraging their capabilities and
+  functionalities.
 
-- Designed & Developed Data Quality Automation Tools for implementing
-  project specific use cases.
+- Programming & Scripting: Python, Scala, JavaScript, C#.Net, SQL
 
-**Domain Knowledge: **
+- Database Management: SQL Server, Oracle, PostgreSQL
+
+- Application Development: Designed & Developed Windows-based Database
+  Migration tools using C#.Net for cross-database migrations (RDBMS based).
+  Designed & Developed Data Quality Automation Tools for project-specific
+  use cases. Other tools: ASP.Net, VB.NET, SSIS, SSAS, SSRS, MDX, DAX,
+  Excel Macros, Crystal Reports, Power BI
+
+- Implement robust access control mechanisms to restrict data access to
+  authorized personnel only along with experience in implementing global
+  standards like GDPR and CCPA.
+
+- Utilizing tools & custom-built projects for data quality, lineage, and
+  lifecycle management to uphold robust data governance.
+
+- Employing advanced solutions for data system health monitoring and
+  data quality assurance.
+
+- Proficient in utilizing TAMR MDM tool for data mastering and
+  management, ensuring data quality, consistency, and integration across
+  diverse datasets.
+
+**Domain Knowledge:**
 
 - Extensive experience across Trading, Mobility, Healthcare, Business
   Financial Systems, Manufacturing, Banking, and accounting sectors.
 
-**Leadership & Coordination: **
+**Leadership & Coordination:**
 
 - Proven leadership in guiding development and maintenance teams,
   ensuring effective collaboration with business stakeholders and
   vendors to meet project deadlines.
 
-**Specifications & Documentation: **
+**Areas of Expertise**
 
-- Skilled in creating detailed functional and technical specifications
-  for complex business problems.
-
-> **Areas of Expertise**
-
-<table style="width:98%;">
-<colgroup>
-<col style="width: 3%" />
-<col style="width: 20%" />
-<col style="width: 9%" />
-<col style="width: 3%" />
-<col style="width: 21%" />
-<col style="width: 11%" />
-<col style="width: 3%" />
-<col style="width: 13%" />
-<col style="width: 10%" />
-</colgroup>
-<thead>
-<tr>
-<th><ul>
-<li></li>
-</ul></th>
-<th>Snowflake</th>
-<th>2 Years</th>
-<th><ul>
-<li></li>
-</ul></th>
-<th>Azure SQL DB</th>
-<th>7 Years</th>
-<th><ul>
-<li></li>
-</ul></th>
-<th>SSIS</th>
-<th>10 Years</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Fivetran</td>
-<td>1 Year</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure DevOps</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>SSAS</td>
-<td>10 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>GCS</td>
-<td>1 Year</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Machine Learning</td>
-<td>2 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>SSRS</td>
-<td>10 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>AWS S3</td>
-<td>1 Year</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Synapse Analytics</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>GitHub</td>
-<td>10 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Databricks</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>NoSQL</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Python</td>
-<td>10 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Data Lake Storage</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Spark</td>
-<td>8 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>C#.Net</td>
-<td>15 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Data Factory</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Jenkins</td>
-<td>2 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>JavaScript</td>
-<td>15 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Key Vaults</td>
-<td>7 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>TFS</td>
-<td>2 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>PowerShell</td>
-<td>15 years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Power BI</td>
-<td>10 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Airflow</td>
-<td>2 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>MDM</td>
-<td>5 Years</td>
-</tr>
-<tr>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Azure Functions</td>
-<td>10 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>PostgreSQL</td>
-<td>2 Years</td>
-<td><ul>
-<li></li>
-</ul></td>
-<td>Streamlit</td>
-<td>1 Year</td>
-</tr>
-</tbody>
-</table>
+| Skill | Years | Skill | Years | Skill | Years |
+|---|---|---|---|---|---|
+| Airflow | 2 Years | Azure AI Foundry | 1 Year | Azure AI Search | 1 Year |
+| Azure Data Factory | 7 Years | Azure Data Lake Storage | 7 Years | Azure Databricks | 7 Years |
+| Azure DevOps | 7 Years | Azure Event Hubs | 1 Year | Azure Functions | 10 Years |
+| Azure Key Vaults | 7 Years | Azure Machine Learning | 2 Years | Azure OpenAI Service | 1 Year |
+| Azure SQL DB | 7 Years | Azure Synapse Analytics | 7 Years | AWS Glue | 1 Year |
+| AWS Lambda | 1 Year | AWS S3 | 1 Year | C#.Net | 15 Years |
+| dbt (Data Build Tools) | 2 Years | Delta Lake | 5 Years | FastAPI | 1 Year |
+| Fivetran | 1 Year | GCS | 1 Year | GitHub | 10 Years |
+| JavaScript | 15 Years | Jenkins | 2 Years | LangChain/LangGraph | 1 Year |
+| MDM | 5 Years | Microsoft Fabric | 1 Year | MLflow | 1 Year |
+| NoSQL | 7 Years | PostgreSQL | 2 Years | Power BI | 10 Years |
+| PowerShell | 15 Years | Python | 10 Years | Snowflake | 2 Years |
+| Spark | 8 Years | SSIS | 10 Years | SSAS | 10 Years |
+| SSRS | 10 Years | Streamlit | 1 Year | TFS | 2 Years |
 
 **Certifications:**
 
-- AB100 (Anthropic Build), Academy Accreditation - Generative AI
+- Azure AI Fundamentals (AB100), Academy Accreditation - Generative AI
   Fundamentals (Databricks), Building Generative AI Applications Using
   Amazon Bedrock, Microsoft Certified: Azure Data Engineer Associate,
   Designing an Azure Data Solution (DP-201), Implementing an Azure Data
@@ -319,13 +139,6 @@ Midland/Cushing/Houston hub spreads), and refining margin dimensions
 development, governance, and deployment layer.
 
 **Roles and Responsibilities:**
-
-- Architected an end-to-end market sensing and trading signal platform
-  on Azure, generating actionable Buy/Sell signals for US crude,
-  products, and natural gas markets across time arbitrage (futures curve
-  shape/contango-backwardation), location arbitrage (WTI
-  Midland/Cushing/Houston hub spreads), and refining margin (3-2-1 crack
-  spread) dimensions.
 
 - Integrated Azure AI Foundry as the central AI/ML development and
   governance layer – managing model lifecycle, experiment tracking, and
@@ -569,122 +382,46 @@ Engineer**
 **Technologies/Stack used: Azure Synapse Analytics, Azure Databricks,
 Azure DevOps, Azure Data Factory, Azure Data Lake, Azure SQL Database,**
 
-**Description:**
+**Project Description:**
 
-Marathon Petroleum Corp, a leading player in the energy industry, is
-embarking on a transformative project to optimize its data management
-and processing capabilities. This project involves the seamless
-ingestion of critical data from the SAP Enterprise Asset Management
-(**SAPEAM**) system, hosted on SAP HANA, and leverages cutting-edge
-technologies such as Databricks, Azure Data Factory, and CDC Qlik Tool
-to enable data-driven decision-making and operational excellence.
+Led data platform modernization for Marathon Petroleum's SAP Enterprise
+Asset Management (SAPEAM) system hosted on SAP HANA. Designed end-to-end
+ingestion pipelines using Databricks, Azure Data Factory, and CDC Qlik
+Tool to extract, transform, and enrich asset management, maintenance,
+and operational data — enabling data-driven decision-making across
+Marathon's midstream operations.
 
-**Project Objectives:**
+**Roles and Responsibilities:**
 
-**Efficient Data Extraction:** The primary objective of this project is
-to efficiently extract data from the SAPEAM system, which serves as a
-vital repository for asset management, maintenance, and operational data
-within Marathon Petroleum Corp. SAP HANA, is the source.
+- Provided technical leadership and guidance to the data engineering
+  team, evaluating new tools (dbt, Fivetran) and delivering POCs for
+  Marathon data engineering use cases.
 
-**Scalable Data Processing:** Databricks, a unified analytics platform,
-will be deployed to handle the ingested data efficiently. Databricks'
-scalability and data processing capabilities will empower Marathon
-Petroleum Corp to handle large volumes of data seamlessly.
+- Designed and implemented data ingestion pipelines to extract data from
+  SAP HANA using CDC Qlik Tool, Databricks, and Azure Data Factory
+  connectors.
 
-**Data Transformation and Enrichment:** Data Factory, a cloud based ETL
-service, will be utilized to transform and enrich the data as it is
-ingested. This includes data cleansing, transformation, and mapping to
-ensure that the data aligns with the organization's analytical
-requirements.
+- Developed data processing workflows using Databricks and ADF to
+  transform, cleanse, validate, and enrich ingested data from SAPEAM
+  into analytical-ready datasets.
 
-**My Roles and Responsibilities:**
+- Implemented data security models and governance controls ensuring
+  compliance with industry regulations and internal policies.
 
-As the Lead Data Engineer responsible for the project described above,
-you play a pivotal role in ensuring the successful execution of data
-ingestion, processing, and analytics initiatives. Your role involves a
-wide range of responsibilities and day-to-day activities aimed at
-achieving the project's objectives. Here is a detailed description of
-your roles and responsibilities:
+- Designed and maintained data architecture including data models, schema
+  design, and fault-tolerant pipeline patterns with automated monitoring
+  and alerting.
 
-- Develop & provide technical leadership and guidance to the data
-  engineering team.
+- Optimized ETL pipeline performance by identifying and resolving
+  bottlenecks, improving processing scalability across large-volume
+  asset management datasets.
 
-- Implement new tools and technologies and compare the performance,
-  cost, and organizational compatibility.
+- Built dbt (Data Build Tools) and Fivetran pipelines as the standard
+  data engineering framework, reducing development time for new data
+  domain onboarding.
 
-- Develop Data Pipelines in DBT (Data Build Tools) & Fivetran for
-  marathon data engineering use cases, develop a POC and demonstrate all
-  use cases.
-
-- Design and Implement security models as part of data governance.
-
-- Collaborate with cross-functional teams, including data analysts, data
-  scientists, and business stakeholders, to understand data requirements
-  and objectives.
-
-- Design and implement data ingestion pipelines to extract data from SAP
-  HANA, utilizing appropriate connectors and methods.
-
-- Develop data processing workflows using Databricks to transform and
-  enrich ingested data.
-
-- Implement data cleansing, validation, and aggregation as needed.
-
-- Collaborate with data scientists to prepare data for advanced
-  analytics.
-
-- Utilize Azure Data Factory to orchestrate ETL (Extract, Transform,
-  Load) processes.
-
-- Monitor and optimize ETL pipelines for performance and scalability.
-
-- Ensure data pipelines are fault-tolerant and can recover from
-  failures.
-
-- Design and maintain the data architecture, including data models and
-  schema.
-
-- Collaborate with data architects to ensure data structures align with
-  the organization's data strategy.
-
-- Implement data security measures to protect sensitive information.
-
-- Ensure data compliance with industry regulations and internal
-  policies.
-
-- Continuously monitor data processing and ingestion performance,
-  optimizing processes for efficiency.
-
-- Identify and resolve bottlenecks and performance issues in data
-  pipelines.
-
-- Maintain comprehensive documentation of data pipelines, ETL processes,
-  and data models.
-
-- Foster a culture of knowledge sharing within the data engineering
-  team.
-
-- Evaluate and select appropriate tools and technologies for data
-  integration and processing.
-
-- Manage relationships with vendors and stay updated on new technologies
-  in the data engineering space.
-
-- Communicate progress, challenges, and project updates to stakeholders,
-  including project managers and business users.
-
-- Ensure alignment between technical solutions and business objectives.
-
-- Provide technical support and troubleshooting assistance for
-  data-related issues.
-
-- Collaborate with the IT support team to resolve infrastructure-related
-  problems.
-
-- Stay current with industry best practices and emerging technologies in
-  data engineering.
-
-- Identify opportunities for process improvements and automation.
+- Maintained comprehensive documentation and fostered knowledge sharing
+  across the data engineering team and cross-functional stakeholders.
 
 **\#6 Shell Americas Retail – Houston, TX (Remote) \| Senior Data
 Engineer**
@@ -916,7 +653,7 @@ Data Warehouse as a separate database.
 
 **Rackspace** – **San Antonio,** Texas.
 
-**\#9 Environment Consolidation/EDW Maintenance & Enhancements** April
+**\#10 Environment Consolidation/EDW Maintenance & Enhancements** April
 2017-Dec 2018
 
 **SQL Server, Informatica, SSIS, GIT, JIRA, MongoDB, PostgreSQL, MySQL,
@@ -936,88 +673,41 @@ US and UK operations.
 
 **Responsibilities:**
 
-- Developed tool, which migrates Database Schema and Generated SSIS
-  Packages between any two RDBMs.
+- Built custom Database Schema Migration tool that auto-generates SSIS
+  packages between any two RDBMS platforms, reducing migration effort
+  across Oracle-BRM, Oracle-EBS, Salesforce CRM, and cloud platform
+  datasets.
 
-- Implemented Recycling in Facts using Azure Data Factory pipelines.
+- Developed Data Audit Framework that auto-validates and corrects data
+  quality issues including SCD type date alignments and missing natural
+  key constraints.
 
-- Implemented CI/CD – Automation for SSIS, Azure Data Factory Pipelines.
+- Implemented CI/CD automation for SSIS and Azure Data Factory pipelines;
+  migrated data workloads from on-premises SQL Server to Azure SQL
+  Database.
 
-- Data Migration from On-Premises to Azure SQL Database.
+- Designed Logical (ER) and Physical data models for star schema;
+  built data marts, SSAS cubes, and SSRS reports for downstream
+  business reporting across US and UK operations.
 
-- Developed Data Audit Framework, which run Test cases and Auto-Corrects
-  Data wherever it can like Date Alignments in SCD types and making
-  single NK is when constraints are missing.
+- Integrated 10+ API data sources (Oracle-BRM, Oracle-EBS, Salesforce
+  CRM, AWS, GCP, Azure) into unified EDW using SSIS and standardized
+  ETL templates.
 
-- Integrating various new API Data sources along with maintaining
-  existing API source Operational Data Sources.
+- Designed and developed Power BI dashboards including geo-spatial
+  bubble maps with On-Premises Data Gateway, published to mobile;
+  created DAX measures and KPIs for executive reporting.
 
-- Building new Operational Data Sources using SSIS.
+- Optimized SSAS cube processing through partition management, AMO
+  aggregation strategies, and SQL Server indexing/table partitioning
+  to improve query performance.
 
-- Building datasets design the Logical (ER) Model and Physical Model to
-  achieve the desired (star) schema model.
-
-- Identifying the bottlenecks and tuning the ETL processes.
-
-- Effective management of the Measure groups by the effective usage of
-  partitions and aggregations.
-
-- Writing custom code using C#.Net code in some specific script tasks
-  for SSIS packages.
-
-- Writing custom code using VB.Net for SSRS Custom report functions.
-
-- Created Dashboards, Reports using Power BI.
-
-- Periodical review of the code and helping the development team in
-  maintaining coding standards.
-
-- Maintaining project metrics and monitoring the project performance.
-
-- Design and Develop the Standard SSIS Template used across the project
-  required for Data loading which are used to extract, transform, and
-  load from various data sources to data mart and generated flat files
-  to be sent to vendors.
-
-- Troubleshooting or debugging using SQL Profiler for monitoring and
-  optimization of SQL/MDX Queries.
-
-- Using AMO library to create aggregations for each partition and
-  managing the cube to process large dimension efficiently.
-
-- Scheduling the packages using SQL Server agent and Windows Scheduler.
-
-- Design and Develop Data marts tailored to specific downstream
-  reporting purposes.
-
-- Participated in Build (weekly/monthly) and deployment activities of
-  all the components.
-
-- Designed and Developed SSAS Cube from the data warehouse built.
-
-- Involved in writing Effective MDX queries, Develop SSRS reports
-  (Business Reports).
-
-- Enhancing Dimension/Measure group partitions processing performance.
-
-- Improved Performance of Relational sources using SQL Server using
-  indexes, Table partitioning etc.
-
-- Design Develop and Deployment of Power BI Bubble maps and configured
-  On-Premises Data Gateway for data refresh (scheduled) on Power BI
-  Maps.
-
-- Published Power BI dashboard on Mobile application.
-
-- Created Measures (Analytic Calculations), KPIs using various DAX
-  Functions like Date and Time, Filter, Logical Functions in Power BI.
-
-- Published SSAS Cube over HTTPS through IIS on windows server for SAP
-  BO reports.
+- Published SSAS Cube over HTTPS through IIS for SAP BO report
+  consumption; managed weekly/monthly build and deployment cycles.
 
 **Forterra – Dallas, Texas.**
 
-**\#10 Forterra DW Project** – Forterra Building Products, **Irving,**
+**\#11 Forterra DW Project** – Forterra Building Products, **Irving,**
 Texas. Feb 2016-April 2017
 
 **SQL Server 2012, SSIS, SSAS, SSRS, Tableau, Windows Server, Oracle –
@@ -1039,81 +729,33 @@ and reporting requirements converting data into information.
 
 **Responsibilities:**
 
-- Designed the EDW project.
+- Designed the enterprise data warehouse integrating three acquired
+  organizations' ERP systems (SAP, Style Line, Titan) into a unified
+  star schema model.
 
-- Understand various Data Sources/Data Models.
+- Designed Logical (ER) and Physical data models; developed SSIS ETL
+  processes to extract, transform, and load data from multiple ERP
+  sources into the consolidated data warehouse.
 
-- Design the Logical (ER) Model and Physical Model to achieve the
-  desired (star) schema model.
+- Built SSAS Multidimensional cubes with MDX calculations; optimized
+  cube processing through partitioning, AMO aggregation strategies,
+  and SQL Server table partitioning.
 
-- Design and develop ETL process for integration of data from various
-  sources.
+- Designed and developed SSRS reports for data loading health monitoring
+  and business reporting; wrote custom C#.Net and VB.Net code for SSIS
+  and SSRS customizations.
 
-- Create the SSAS Multidimensional cube using star schema and creating
-  various calculations used in the report using MDX.
+- Created Power BI dashboards for Forterra's main LOB including
+  geo-spatial bubble maps with On-Premises Data Gateway; published to
+  mobile with DAX measures and KPIs.
 
-- Design and develop SSRS reports to show the health of data loading
-  into DW.
-
-- Effective management of the Measure groups by the effective usage of
-  partitions and aggregations.
-
-- Tune the performance of the SQL Tables/Partitions and improve the Cube
-  Processing time from the CUBE.
-
-- Writing custom code using C#.Net code in some specific script tasks
-  for SSIS packages.
-
-- Writing custom code using VB.Net for SSRS Custom report functions.
-
-- Created Dashboards, Reports using Power BI.
-
-- Periodical review of the code and helping the development team in
-  maintaining coding standards.
-
-- Maintaining project metrics and monitoring the project performance.
-
-- Troubleshooting or debugging using SQL Profiler for monitoring and
-  optimization of SQL/MDX Queries.
-
-- Using AMO library to create aggregations for each partition and
-  managing the cube to process large dimension efficiently.
-
-- Scheduling the packages using SQL Server agent and Windows Scheduler.
-
-- Design and Develop Data marts tailored to specific downstream
-  reporting purposes.
-
-- Participated in Build (weekly/monthly) and deployment activities of
-  all the components.
-
-- Designed and Developed SSAS Cube from the data warehouse built.
-
-- Involved in writing Effective MDX queries, Develop SSRS reports
-  (Business Reports).
-
-- Enhancing Dimension/Measure group partitions processing performance.
-
-- Improved Performance of Relational sources using SQL Server using
-  indexes, Table partitioning etc.
-
-- Designed dashboard using Power BI Desktop for Forterra main LOB.
-
-- Design Develop and Deployment of Power BI Bubble maps and configured
-  On-Premises Data Gateway for data refresh (scheduled) on Power BI
-  Maps.
-
-- Published Power BI dashboard on Mobile application.
-
-- Created Measures (Analytic Calculations), KPIs using various DAX
-  Functions like Date and Time, Filter, Logical Functions in Power BI.
-
-- Published SSAS Cube over HTTPS through IIS on windows server for SAP
-  BO reports.
+- Published SSAS Cube over HTTPS through IIS for SAP BO report
+  consumption; led code reviews and maintained coding standards across
+  the development team.
 
 **IQVIA – Bangalore, India**
 
-**\#11 InterACT** – Bristol Mayer Squibb January 2014-Feb 2016
+**\#12 InterACT** – Bristol-Myers Squibb January 2014-Feb 2016
 
 **SQL Server 2008 R2, SSIS, SSAS, SSRS, Windows Server, Oracle – Toad.**
 
@@ -1130,157 +772,69 @@ data.
 
 **Responsibilities:**
 
-- Lead the team in Requirements gathering and helping in design, coding
-  and testing.
+- Led the team in requirements gathering, design, coding, and testing;
+  provided effort estimates and prepared BRD, FRD, and TDD documents.
 
-- Providing the effort estimates for the projects and Preparing BRD, FRD
-  and TDD documents.
+- Designed Logical and Physical data models; built standard SSIS ETL
+  templates used across the project for data loading from CRM sources
+  to data marts and vendor flat file generation.
 
-- Responsible for initiating the meetings with business stakeholders in
-  understanding the source systems and analyzing the data feeds for
-  integration.
+- Built SSAS cubes and SSRS reports for downstream drug sales, growth,
+  and incentive program analytics; optimized dimension and partition
+  processing performance.
 
-- Designed the Logical Data Model & Physical Data Model using ER tool.
+- Mentored junior team members through application/technical sessions;
+  led code reviews and maintained coding standards.
 
-- Periodical review of the code and helping the development team in
-  maintaining coding standards.
+- Designed and developed Power BI reports and dashboards (POC) with
+  custom DAX calculations for BMS sales analytics.
 
-- Maintaining project metrics and monitoring the project performance.
+**\#13 OEM Activation (OA 3.0) & \#14 LOTUS BIE** – Microsoft, Redmond, WA. March 2012 – November 2013 (Concurrent)
 
-- Design and Develop the Standard SSIS Template used across the project
-  required for Data loading and used these standard SSIS packages to
-  extract, transform and load from various data sources to data mart and
-  generated flat files to be sent to vendors.
-
-- Used SQL Profiler for troubleshooting, monitoring, optimization of SQL
-  code.
-
-- Scheduling of the packages using SQL Server agent.
-
-- Design and Develop Data marts tailored to specific downstream.
-
-- Design Develop and Deployment Cube using SSAS.
-
-- Participated in Build and deployment activities of all the components.
-
-- Involved in writing MDX queries, Develop SSRS reports.
-
-- Enhancing Dimension processing performance and Partition Processing
-  Performance.
-
-- Improved Performance of Relational sources using SQL Server using
-  indexes, Table partitioning etc.
-
-- Mentoring and taking application/technical sessions to juniors in the
-  team.
-
-- Data modelling for Power BI reports.
-
-- Created custom calculations using various DAX functions.
-
-- Designed, Developed and Published Power BI Reports, Power BI Dashboard
-  – POC.
-
-**\#12 OEM Activation (OA 3.0)** – Microsoft, Redmond, WA. October 2012
-– November 2013
-
-**SQL Server 2012, SSAS, SSRS, Windows Server 2008**
+**SQL Server 2012, SSAS, SSRS, SSIS, Informatica, Windows Server 2008**
 
 **Role:** Senior BI Developer
 
 **Description:**
 
-The OA 3.0 Reporting and Analytics Project was sponsored to meet the
-need for efficient and richer information delivery post the new OA 3.0
-supply chain and licensing model for OEMs. The solution supports
-reporting and decision making around relevant business
-functions/processes for core windows activation and validation process
-for OEM PCs.
-
-Microsoft OEM Operations, BG Finance, Anti-Piracy are some of the key
-user’s groups who use this solution.
+Concurrently delivered two BI analytics projects at Microsoft: OA 3.0
+(OEM Activation supply chain reporting for OEM Operations, BG Finance,
+and Anti-Piracy teams) and LOTUS BIE (business intelligence platform
+for India regulatory compliance and partner activity separation).
 
 **Responsibilities:**
 
-- Created and tuned complex SQL Queries, stored procedures, views,
-  tables, and database objects as per the Design on TDD
+- Created and tuned complex SQL queries, stored procedures, views, and
+  database objects; designed dimensional models and SSAS cubes for both
+  projects.
 
-- Extensively worked on designing reports using SQL Server Reporting
-  Services (SSRS).
+- Designed and developed SSRS reports and SSAS cube analytics serving
+  Microsoft OEM Operations, BG Finance, and Anti-Piracy stakeholders.
 
-- Involved in Designing, Development and Deploying of all objects
-  related to Cube using SSAS.
+- Implemented cube performance tuning including partitioning strategies,
+  aggregation optimization via AMO library, and MDX query optimization.
 
-- Coordinated with business users and implemented OEM Cube enhancements
-  and performance tuning related to cube processing.
+- Created SSIS packages for OLTP-to-OLAP data transfer; developed
+  stored procedures and SQL Jobs for automated processing.
 
-- Created Partitions in SQL Server & OEM Cube to improve performance.
+- Improved SQL Server performance through indexing strategies and table
+  partitioning across both project databases.
 
-- Involved in creating Dimensional model.
+- Developed and executed test strategies, test cases, and validation
+  frameworks supporting deployment quality assurance.
 
-- Writing MDX queries for Querying and Calculation purposes etc.
+---
 
-- Involved in Enhancing Dimension processing performance and Partition
-  Processing Performance.
+**Earlier Career (2006 – 2012)**
 
-- Improved Performance of Relational sources like SQL Server using
-  indexes, Table partitioning etc.
+**\#15 Joint Business Program** – Procter & Gamble (P&G), Cincinnati, OH. October 2011 – March 2012
+**Role:** BI Developer & Front-end Developer | **Stack:** SQL Server, SSIS, SSRS, Excel Macros
 
-- Composed of test strategies (which support/enhance the development
-  methodology), test cases and test results.
+**\#16 BI Project** – SKS Microfinance, Hyderabad, India. February 2009 – October 2011
+**Role:** Database Developer & .Net Developer | **Stack:** SQL Server, SSIS, SSAS, SSRS, Excel Macros
 
-**\#13 LOTUS BIE** – Microsoft, Redmond, WA. March 2012 – October 2013
+**\#17 Finops** – SKS Microfinance, Hyderabad, India. September 2009 – March 2011
+**Role:** .Net Developer | **Stack:** ASP.NET, VB.NET, SQL Server, SSIS, HTML, CSS
 
-**SQL Server 20012, SSAS, SSRS, Informatica, Windows Server 2008.**
-
-**Role:** Senior BI Developer
-
-**Description:**
-
-Microsoft needs more control of business activities to be successful in
-India’s difficult regulatory environment and to enable long-term
-business growth with minimal further disruption. Furthermore, Through
-LOTUS program Microsoft wants to separate Partner activities from those
-of its own to gain and maintain that control of its business.
-
-**Responsibilities:**
-
-- Developed SSRS Reports using SSAS cube as source.
-
-- Responsible for the developing of Stored Procedures, SQL Jobs.
-
-- Improving performance of SQL queries using indexes, Table partitioning
-  etc.
-
-- Involved in Performance tuning of CUBE processing and MDX Queries.
-
-- Created SSIS packages to transfer data between OLTP and OLAP
-  databases.
-
-**\#13 Joint Business Program** – Procter & Gamble (P&G), Cincinnati,
-OH. October 2011 – March 2012
-
-**SQL Server, SSIS, SSRS, Excel Macros, Windows XP.**
-
-**Role:** BI Developer & Front-end Developer
-
-**\#14 BI Project - SKS Microfinance**, Hyderabad, India. February
-2009 - October 2011
-
-**SQL Server, SSIS, SSAS, SSRS, Excel Macros, Windows XP.**
-
-**Role:** Database Developer & .Net Developer
-
-**\#15 Finops - SKS Microfinance**, Hyderabad, India. September 2009 -
-March 2011
-
-**ASP.NET, VB.NET, SQL Server, SSIS, HTML, CSS, Window’s Server 2003
-R2.**
-
-**Role:** .Net Developer
-
-**\#16 Perth leadership**, Hyderabad, India. Nov 2006 - Oct 2008
-
-**ASP.NET, VB.NET, SQL Server, HTML, CSS, Window’s Server 2003 R2**
-
-**Role:** .Net Developer
+**\#18 Perth Leadership** – Hyderabad, India. November 2006 – October 2008
+**Role:** .Net Developer | **Stack:** ASP.NET, VB.NET, SQL Server, HTML, CSS
