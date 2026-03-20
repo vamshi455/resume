@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc resume/Vamshi_Resume_2026_V5.docx -f docx -t gfm -o resume/Vamshi_Resume.md)",
+      "Bash(pandoc /Users/vamshi/Resume_Project/resume/Vamshi_Resume_2026_V7.docx -f docx -t gfm -o /Users/vamshi/Resume_Project/resume/Vamshi_Resume.md)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "Bash(find /Users/vamshi/Resume_Project -type f -name *.md -o -name *.txt -o -name *.json)",
+      "Bash(gh api:*)",
+      "Bash(chmod +x /Users/vamshi/Resume_Project/scripts/export_to_pdf.sh)"
+    ]
+  }
+}

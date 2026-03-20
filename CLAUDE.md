@@ -1,33 +1,61 @@
 # Resume Project
 
 ## Overview
-Markdown-first resume management: edit in markdown, convert to docx for distribution.
+Markdown-first resume management: master resume as single source of truth, tailored per job requirement, exported to docx/pdf.
 
 ## Directory Structure
-- `resume/Vamshi_Resume.md` — Working resume file (always latest, edit this)
-- `resume/*.docx` — Versioned docx outputs (do not edit directly)
-- `projects/` — Per-project/application context files
+```
+.
+├── CLAUDE.md                # How the coworker should behave
+├── PROJECT_CONTEXT.md       # Profile, constraints, style preferences
+├── resume/
+│   ├── master.md            # Single source of truth (edit this)
+│   ├── templates/           # Role-based tailoring guides
+│   │   ├── ai-engineer.md
+│   │   ├── data-eng-lead.md
+│   │   └── solutions-arch.md
+│   ├── history/             # Snapshots of master at key milestones
+│   │   └── 2026-03-20-master-v1.md
+│   └── *.docx               # Exported docx versions
+├── requirements/            # Job descriptions / role requirements
+│   └── {date}-{company}-{role}.md
+├── outputs/                 # Tailored resumes per application
+│   └── {date}-{company}/
+│       ├── resume-tailored.md
+│       ├── recruiter-reply-email.md
+│       └── keywords-extracted.json
+└── scripts/
+    └── export_to_pdf.sh     # Pandoc export helper
+```
 
 ## Workflow
-1. Edit `resume/Vamshi_Resume.md`
+
+### Editing Master Resume
+1. Edit `resume/master.md`
 2. Review changes with user
-3. When approved, convert to docx: `pandoc resume/Vamshi_Resume.md -f gfm -t docx -o resume/Vamshi_Resume_2026_V{N}.docx`
+3. When approved, export: `./scripts/export_to_pdf.sh resume/master.md Vamshi_Resume_2026_V{N}`
 4. Commit and push to GitHub
 
+### Tailoring for a Job
+1. Save job description to `requirements/{date}-{company}-{role}.md`
+2. Pick a template from `resume/templates/` as a guide
+3. Create tailored resume in `outputs/{date}-{company}/resume-tailored.md`
+4. Optionally draft recruiter reply and extract keywords
+5. Export tailored version via `./scripts/export_to_pdf.sh`
+
 ## Conversion Commands
-- **docx → md**: `pandoc resume/FILE.docx -f docx -t gfm -o resume/Vamshi_Resume.md`
-- **md → docx**: `pandoc resume/Vamshi_Resume.md -f gfm -t docx -o resume/Vamshi_Resume_2026_V{N}.docx`
+- **docx → md**: `pandoc resume/FILE.docx -f docx -t gfm -o resume/master.md`
+- **md → docx**: `pandoc resume/master.md -f gfm -t docx -o resume/OUTPUT.docx`
+- **Export script**: `./scripts/export_to_pdf.sh [input.md] [output-name]`
 
 ## Versioning
-- Markdown file: single file, git tracks history
-- Docx files: filename includes version number (V7 is the original, V8 next, etc.)
-- Increment version number on each approved conversion
-
-## Project Contexts
-- Store in `projects/{company}_{role}.md`
-- Each file contains: job description, tailoring notes, technologies, status
+- `resume/master.md` — always the latest version, git tracks history
+- `resume/history/` — manual snapshots at key milestones
+- Docx files: filename includes version or company name
 
 ## Rules
 - Do NOT put specific content in README.md
+- `resume/master.md` is the single source of truth
 - Always convert md → docx when user approves changes
-- Keep project contexts updated as needed
+- Tailored resumes go in `outputs/`, never overwrite master
+- Refer to `PROJECT_CONTEXT.md` for profile, style, and constraints
