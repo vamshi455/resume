@@ -51,15 +51,12 @@
   Data Quality Automation Framework), and configuration management
   interfaces. End-to-end delivery from UI design through database layer.
 
-- Implement robust access control mechanisms to restrict data access to
-  authorized personnel only along with experience in implementing global
-  standards like GDPR and CCPA.
-
-- Utilizing tools & custom-built projects for data quality, lineage, and
-  lifecycle management to uphold robust data governance.
-
-- Employing advanced solutions for data system health monitoring and
-  data quality assurance.
+- Data Governance & Security: Implemented PII protection (Dynamic Data
+  Masking, Row-Level Security, column-level encryption), data
+  classification and cataloging with Microsoft Purview, and access
+  control policies aligned with GDPR, CCPA, and enterprise IRM
+  standards. Built custom data quality, lineage, and lifecycle
+  management frameworks across governed data platforms.
 
 - Proficient in utilizing TAMR MDM tool for data mastering and
   management, ensuring data quality, consistency, and integration across
@@ -302,15 +299,18 @@ My Roles and Responsibilities:
 - Architected ADLS container structure following medallion pattern with
   automated file archival and retention policies.
 
+- Implemented data governance and PII protection controls for customer
+  loyalty data (names, email, phone, payment info) across 29 data
+  domains — applied Dynamic Data Masking on sensitive columns, Row-Level
+  Security policies for role-based access, and column-level encryption
+  in Dedicated SQL Pool to meet CCPA and internal data privacy standards.
+
 - Deployed solution across Dev, QA, and Prod environments with
   environment-specific configurations and retry policies.
 
 - Collaborated with business stakeholders to understand loyalty
   analytics requirements and ensure data structures support reporting
   needs.
-
-- Maintained comprehensive documentation of pipelines, processing logic,
-  and data models for knowledge sharing across teams.
 
 **\#4 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
 Engineer**
@@ -445,13 +445,11 @@ Rewards Program which is the direct beneficiary of this DARE project.
 - Design & Develop Databricks notebooks to process the source files –
   Handling Incremental and Full load scenarios.
 
-- Implement Column level security including Dynamic Data Masking in
-  Databricks
-
-- Manage Dynamic Data Masking and Row Access Policies
-
-- Implement the options available to support Row Level security using
-  Databricks Row Access Policies
+- Implemented comprehensive data governance for Fuel Rewards customer
+  PII (SSN, payment cards, loyalty IDs, contact info) — Column-Level
+  Security with Dynamic Data Masking in Databricks, Row Access Policies
+  for role-based data isolation, and data classification tagging to
+  comply with Shell's IRM and GDPR/CCPA requirements.
 
 - Design & Develop ADF pipelines for orchestrating the Databricks
   Notebooks
