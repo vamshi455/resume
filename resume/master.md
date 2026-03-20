@@ -203,9 +203,8 @@ engineering validation.
 **Roles and Responsibilities:**
 
 - Architected and implemented end-to-end VRR data platform on Snowflake
-  ingesting well-level injection and production data from SCADA, PI
-  Historian, and SAP ERP systems via Fivetran connectors and AWS Glue
-  ETL jobs.
+  ingesting well-level injection and production data from upstream
+  field systems via Fivetran connectors and cloud-native ETL jobs.
 
 - Developed dbt models to compute instantaneous VRR (monthly rate basis)
   and cumulative VRR across reservoir hierarchy levels including well,
@@ -319,18 +318,17 @@ My Roles and Responsibilities:
 **\#4 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
 Engineer**
 
-**\[Midstream\] KittyHawk Modernization – Right Angle CTRM Data Platform
-–** Jul 2023 – Dec 2023
+**\[Midstream\] Commodity Trading Data Platform Modernization –** Jul 2023 – Dec 2023
 
-**Technologies/Stack used: Right Angle (CTRM), Qlik Replication, Azure
+**Technologies/Stack used: Qlik Replication, Azure
 Synapse Analytics, Azure Data Factory, Azure Data Lake Storage Gen2,
 Dedicated SQL Pool, Azure DevOps, Python, SQL, Power BI**
 
 **Project Description:**
 
 Engineered end-to-end data migration pipelines to modernize a legacy
-SQL Server (KittyHawk) receiving data from the Right Angle CTRM
-application onto Azure Synapse Analytics, spanning 98 master and
+commodity trading SQL Server database onto Azure Synapse Analytics,
+spanning 98 master and
 transaction tables across two schemas — a CDC replica layer
 and a curated analytical layer.
 
