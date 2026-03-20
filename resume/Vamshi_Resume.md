@@ -85,7 +85,7 @@ Azure AI Foundry · 1 Year | Azure AI Search · 1 Year | Azure Event Hubs · 1 Y
 
 **Certifications:**
 
-- Azure AI Fundamentals (AB100), Academy Accreditation - Generative AI
+- Agentic AI Business Solutions Architect (AB-100), Academy Accreditation - Generative AI
   Fundamentals (Databricks), Building Generative AI Applications Using
   Amazon Bedrock, Microsoft Certified: Azure Data Engineer Associate,
   Designing an Azure Data Solution (DP-201), Implementing an Azure Data
