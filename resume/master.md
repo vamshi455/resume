@@ -6,9 +6,7 @@
 
 <u>vamshi455@gmail.com</u>
 
-<https://www.linkedin.com/in/vamshi-singam-82963556/>
-
-<https://github.com/vamshi455>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vamshi-singam-82963556/) [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/vamshi455)
 
 **Professional Summary:**
 
