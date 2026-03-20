@@ -70,22 +70,22 @@
 
 **Areas of Expertise**
 
-| Skill | Years | Skill | Years | Skill | Years |
-|---|---|---|---|---|---|
-| C#.Net | 15 Years | JavaScript | 15 Years | PowerShell | 15 Years |
-| Azure Functions | 10 Years | GitHub | 10 Years | Power BI | 10 Years |
-| Python | 10 Years | SSIS | 10 Years | SSAS | 10 Years |
-| SSRS | 10 Years | Spark | 8 Years | Azure Data Factory | 7 Years |
-| Azure Data Lake Storage | 7 Years | Azure Databricks | 7 Years | Azure DevOps | 7 Years |
-| Azure Key Vaults | 7 Years | Azure SQL DB | 7 Years | Azure Synapse Analytics | 7 Years |
-| NoSQL | 7 Years | Delta Lake | 5 Years | MDM | 5 Years |
-| Airflow | 2 Years | Azure Machine Learning | 2 Years | dbt (Data Build Tools) | 2 Years |
-| Jenkins | 2 Years | PostgreSQL | 2 Years | React JS | 2 Years |
-| Snowflake | 2 Years | TFS | 2 Years | Azure AI Foundry | 1 Year |
-| Azure AI Search | 1 Year | Azure Event Hubs | 1 Year | Azure OpenAI Service | 1 Year |
-| AWS Glue | 1 Year | AWS Lambda | 1 Year | AWS S3 | 1 Year |
-| FastAPI | 1 Year | Fivetran | 1 Year | GCS | 1 Year |
-| Microsoft Fabric | 1 Year | MLflow | 1 Year | Streamlit | 1 Year |
+| Skill                   | Years    | Skill                   | Years    | Skill                   | Years    |
+|:------------------------|:---------|:------------------------|:---------|:------------------------|:---------|
+| C#.Net                  | 15 Years | JavaScript              | 15 Years | PowerShell              | 15 Years |
+| Azure Functions         | 10 Years | GitHub                  | 10 Years | Power BI                | 10 Years |
+| Python                  | 10 Years | SSIS                    | 10 Years | SSAS                    | 10 Years |
+| SSRS                    | 10 Years | Spark                   | 8 Years  | Azure Data Factory      | 7 Years  |
+| Azure Data Lake Storage | 7 Years  | Azure Databricks        | 7 Years  | Azure DevOps            | 7 Years  |
+| Azure Key Vaults        | 7 Years  | Azure SQL DB            | 7 Years  | Azure Synapse Analytics | 7 Years  |
+| NoSQL                   | 7 Years  | Delta Lake              | 5 Years  | MDM                     | 5 Years  |
+| Airflow                 | 2 Years  | Azure Machine Learning  | 2 Years  | dbt (Data Build Tools)  | 2 Years  |
+| Jenkins                 | 2 Years  | PostgreSQL              | 2 Years  | React JS                | 2 Years  |
+| Snowflake               | 2 Years  | TFS                     | 2 Years  | Azure AI Foundry        | 1 Year   |
+| Azure AI Search         | 1 Year   | Azure Event Hubs        | 1 Year   | Azure OpenAI Service    | 1 Year   |
+| AWS Glue                | 1 Year   | AWS Lambda              | 1 Year   | AWS S3                  | 1 Year   |
+| FastAPI                 | 1 Year   | Fivetran                | 1 Year   | GCS                     | 1 Year   |
+| Microsoft Fabric        | 1 Year   | MLflow                  | 1 Year   | Streamlit               | 1 Year   |
 
 **Certifications:**
 

@@ -10,7 +10,18 @@
       "WebSearch",
       "Bash(find /Users/vamshi/Resume_Project -type f -name *.md -o -name *.txt -o -name *.json)",
       "Bash(gh api:*)",
-      "Bash(chmod +x /Users/vamshi/Resume_Project/scripts/export_to_pdf.sh)"
+      "Bash(chmod +x /Users/vamshi/Resume_Project/scripts/export_to_pdf.sh)",
+      "Bash(pandoc /Users/vamshi/Resume_Project/resume/master.md -f gfm -t docx -o /Users/vamshi/Resume_Project/resume/Vamshi_Resume_2026_V8.docx)",
+      "Bash(ls -la /Users/vamshi/Resume_Project/resume/*.docx)",
+      "Bash(git rm:*)",
+      "Bash(pip3 install:*)",
+      "Bash(pip3 show:*)",
+      "Bash(/usr/local/bin/python3 -c \"from docx import Document; print\\(''ok''\\)\")",
+      "Bash(/opt/homebrew/bin/python3 -c \"from docx import Document; print\\(''ok''\\)\")",
+      "Bash(python3.12 -c \"from docx import Document; print\\(''ok''\\)\")",
+      "Bash(/usr/local/bin/python3:*)",
+      "Bash(pandoc /Users/vamshi/Resume_Project/resume/master.md -f gfm -t docx --reference-doc=/Users/vamshi/Resume_Project/resume/reference.docx -o /Users/vamshi/Resume_Project/resume/Vamshi_Resume_2026_V9.docx)",
+      "Bash(pandoc /Users/vamshi/Resume_Project/resume/master.md -f gfm -t docx --reference-doc=/Users/vamshi/Resume_Project/resume/reference.docx -o /Users/vamshi/Resume_Project/resume/Vamshi_Resume_2026.docx)"
     ]
   }
 }
