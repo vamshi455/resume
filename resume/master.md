@@ -352,9 +352,10 @@ and a curated analytical layer.
   handling; ensured SLA adherence across Dev, QA, and Production
   Synapse environments with Azure DevOps CI/CD.
 
-- Built Power BI reporting layer on the curated schema for commodity
-  trading analytics including movement tracking, expense analysis,
-  inventory forecasting, and trading operations dashboards.
+- Built Power BI reporting layer on the curated schema delivering
+  Movement, Movement Transaction, Inventory History, Inventory Forecast,
+  and Bulk Transfer Expense reports for commodity trading analytics and
+  trading operations dashboards.
 
 **\#5 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
 Engineer**
