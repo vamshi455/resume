@@ -1,7 +1,7 @@
 # LinkedIn — MHK Tech Inc Experience Entry
 
 ## Title
-Agentic AI Solutions Architect & Lead Data Engineer (Consultant – ETRM & Data Platforms)
+Agentic AI Solutions Architect & Lead Data Engineer (Consultant – Energy & Data Platforms)
 
 ## Company
 MHK TECH INC
@@ -17,9 +17,9 @@ Dec 2021 – Present
 
 ## Description (copy everything below this line — under 2,000 chars)
 
-Architecting ETRM, market-sensing, and loyalty platforms for Oil & Gas supermajors — trading P&L, exposure, and risk reporting across crude, products, natural gas, and power.
+Building data engineering and analytics platforms for Oil & Gas supermajors — delivering trading P&L, exposure, risk reporting, and loyalty analytics across crude, products, natural gas, and power domains.
 
-• ETRM data platforms and reporting — P&L, exposure, limits, reconciliation, VRR, loyalty economics
+• Data platforms serving energy trading workflows — P&L, exposure, limits, reconciliation, VRR, loyalty economics
 • Azure/Snowflake/Databricks market-sensing and trading signal platforms with arbitrage and margin analytics
 • Medallion architectures, CDC ingestion, data governance (RLS, DDM, encryption) for regulatory controls
 
