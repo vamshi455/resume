@@ -356,6 +356,12 @@ and a curated analytical layer.
   and Bulk Transfer Expense reports for commodity trading analytics and
   trading operations dashboards.
 
+- Developed Crude Deal Capture Reporting module delivering P&L reports,
+  exposure reports, trade reconciliation reports, bank statements, and
+  credit balance reports — enabling trading desks to track position-level
+  profitability, counterparty credit risk, and settlement reconciliation
+  across crude trading operations.
+
 **\#5 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
 Engineer**
 
