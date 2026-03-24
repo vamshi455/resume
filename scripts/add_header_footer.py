@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
-"""Post-process a pandoc-generated docx to add LinkedIn/GitHub URLs top-right on every page.
+"""Post-process a pandoc-generated docx to remove all headers and footers.
 
 Usage: python3 scripts/add_header_footer.py <input.docx> [output.docx]
 If output is omitted, overwrites the input file.
 """
 import sys
 from docx import Document
-from docx.shared import Pt, RGBColor, Emu
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.ns import qn, nsdecls
-from docx.oxml import parse_xml
+from docx.shared import Pt, Emu
 
 
 def process(input_path, output_path=None):
@@ -20,38 +17,21 @@ def process(input_path, output_path=None):
 
     for section in doc.sections:
         section.different_first_page_header_footer = False
-        section.header_distance = Emu(274320)  # 0.216 inches — tight
-        section.footer_distance = Emu(274320)
 
-        # ── HEADER AREA: LinkedIn + GitHub, right-aligned, no border ──
+        # ── Remove header content ──
         header = section.header
         header.is_linked_to_previous = False
-
-        # Clear all existing header content
         for p in list(header.paragraphs):
             header._element.remove(p._element)
         for t in list(header.tables):
             header._element.remove(t._element)
 
-        # Single right-aligned paragraph with URLs
+        # Add empty paragraph to keep header area clean
         hp = header.add_paragraph()
-        hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
         hp.paragraph_format.space_after = Pt(0)
         hp.paragraph_format.space_before = Pt(0)
 
-        r = hp.add_run("linkedin.com/in/vamshi-singam-82963556")
-        r.font.size = Pt(7.5)
-        r.font.color.rgb = RGBColor(0x00, 0x77, 0xB5)
-
-        r = hp.add_run("  |  ")
-        r.font.size = Pt(7)
-        r.font.color.rgb = RGBColor(0xBB, 0xBB, 0xBB)
-
-        r = hp.add_run("github.com/vamshi455")
-        r.font.size = Pt(7.5)
-        r.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
-
-        # ── FOOTER: empty ──
+        # ── Remove footer content ──
         footer = section.footer
         footer.is_linked_to_previous = False
         for p in list(footer.paragraphs):
@@ -59,7 +39,7 @@ def process(input_path, output_path=None):
         for t in list(footer.tables):
             footer._element.remove(t._element)
 
-        # Add empty paragraph to keep footer clean
+        # Add empty paragraph to keep footer area clean
         fp = footer.add_paragraph()
         fp.paragraph_format.space_after = Pt(0)
         fp.paragraph_format.space_before = Pt(0)

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Export resume markdown to DOCX with header/footer post-processing
+# Export resume markdown to DOCX with clean header/footer removal
 # Usage: ./scripts/export_to_pdf.sh [input.md] [output-name] [output-dir]
 #
 # Examples:
@@ -28,8 +28,8 @@ pandoc "$INPUT" -f gfm -t docx \
     --reference-doc="${PROJECT_DIR}/resume/reference-compact.docx" \
     -o "$OUTPUT_PATH"
 
-# Step 2: Post-process — inject header, footer, watermark with working hyperlinks
-echo "Adding header/footer/watermark..."
+# Step 2: Post-process — remove any header/footer content
+echo "Cleaning headers/footers..."
 python3 "${SCRIPT_DIR}/add_header_footer.py" "$OUTPUT_PATH"
 
 echo "Created: $OUTPUT_PATH"
