@@ -1,0 +1,860 @@
+# Vamshi Singam
+
+**Lead Data Engineer | Agentic AI Solutions Architect**
+
+**+1 346-666-1192** | vamshi455@gmail.com | [LinkedIn](https://www.linkedin.com/in/vamshi-singam-82963556/) | [GitHub](https://github.com/vamshi455)
+
+**Professional Summary:**
+
+- Lead Data Engineer and AI Solutions Architect with 20+ years of
+  enterprise experience, building cloud-native data platforms and
+  production-grade AI/ML solutions on AWS, Palantir Foundry, and Azure.
+  Delivered governed data platforms for energy majors including Exxon
+  Mobil, Marathon Petroleum, Shell, and Phillips 66 — leveraging Palantir
+  Foundry (Ontology, Pipeline Builder, Contour, Data Connection, Code
+  Repositories), AWS services (S3, Glue, Lambda, Redshift, Step
+  Functions, CloudWatch, IAM), and Snowflake on AWS for large-scale data
+  engineering, analytics, and AI workloads. Partnered with product, data,
+  and platform teams to modernize data platforms, optimize pipelines, and
+  operationalize AI use cases at scale.
+
+- GenAI/AI Engineering: Building production-grade AI solutions —
+  developing multi-agent systems, RAG pipelines (vector + hybrid search),
+  and LLM orchestration on AWS Bedrock and Azure AI Foundry. Active
+  GitHub portfolio (github.com/vamshi455) showcasing GenAI and AI
+  engineering capabilities across oil & gas, loyalty, and enterprise
+  domains.
+
+- Cloud Platforms & Data Processing: Palantir Foundry (Ontology,
+  Pipeline Builder, Contour, Code Repositories, Data Connection), AWS
+  (S3, Glue, Lambda, Redshift, Step Functions, CloudWatch, EMR, IAM),
+  Snowflake, Databricks, Apache Airflow (MWAA), dbt (Data Build Tools),
+  Fivetran, Delta Lake, Azure Data Factory, Azure Synapse Analytics
+
+- Develop highly efficient Batch & Realtime data pipelines for Ingesting
+  data from diverse set of source systems, including SAP EAM, Oracle P6,
+  Infor Visual & Titan (ERP), Nucleus (ETRM), Encore (ETRM), Oracle BRM,
+  Oracle ERP systems, and SAP ERP, AVEVA (IIOT), Intelex (EHSQ),
+  Epsilon, Excentus effectively leveraging their capabilities and
+  functionalities.
+
+- Programming & Scripting: Python, Scala, JavaScript, C#.Net, SQL
+
+- Database Management: SQL Server, Oracle, PostgreSQL, Amazon Redshift
+
+- Application Development: Throughout career, built custom enterprise
+  applications — web apps (ASP.NET, VB.NET, C#.Net, React JS), Windows
+  desktop tools (Database Migration Tool for cross-RDBMS migrations,
+  Data Quality Automation Framework), and configuration management
+  interfaces. End-to-end delivery from UI design through database layer.
+
+- Data Governance & Security: Implemented PII protection (Dynamic Data
+  Masking, Row-Level Security, column-level encryption), data
+  classification and cataloging, and access control policies aligned with
+  GDPR, CCPA, and enterprise IRM standards. Built custom data quality,
+  lineage, and lifecycle management frameworks across governed data
+  platforms using AWS IAM, CloudTrail, and Lake Formation.
+
+
+**Domain Knowledge:**
+
+- Extensive experience across Trading, Mobility, Healthcare, Business
+  Financial Systems, Manufacturing, Banking, and accounting sectors.
+
+**Leadership & Coordination:**
+
+- Proven leadership in guiding development and maintenance teams,
+  ensuring effective collaboration with business stakeholders and
+  vendors to meet project deadlines.
+
+**Areas of Expertise**
+
+| Skill                   | Years    | Skill                   | Years    | Skill                   | Years    |
+|:------------------------|:---------|:------------------------|:---------|:------------------------|:---------|
+| Python                  | 10 Years | Spark                   | 8 Years  | C#.Net                  | 15 Years |
+| AWS S3                  | 3 Years  | AWS Glue                | 3 Years  | AWS Lambda              | 3 Years  |
+| AWS Redshift            | 2 Years  | AWS Step Functions      | 2 Years  | AWS CloudWatch          | 2 Years  |
+| Snowflake               | 2 Years  | Airflow (MWAA)          | 2 Years  | dbt (Data Build Tools)  | 2 Years  |
+| Delta Lake              | 5 Years  | Azure Data Factory      | 7 Years  | Azure Databricks        | 7 Years  |
+| Azure Synapse Analytics | 7 Years  | Azure Data Lake Storage | 7 Years  | Azure DevOps            | 7 Years  |
+| JavaScript              | 15 Years | PowerShell              | 15 Years | GitHub                  | 10 Years |
+| Power BI                | 10 Years | SSIS                    | 10 Years | NoSQL                   | 7 Years  |
+| PostgreSQL              | 2 Years  | React JS                | 2 Years  | Jenkins                 | 2 Years  |
+| Azure AI Foundry        | 1 Year   | AWS Bedrock             | 1 Year   | Fivetran                | 1 Year   |
+| Palantir Foundry        | 1 Year   | Palantir Contour        | 1 Year   | Palantir Pipeline Bldr  | 1 Year   |
+| FastAPI                 | 1 Year   | MLflow                  | 1 Year   | Streamlit               | 1 Year   |
+
+**Certifications:**
+
+- Building Generative AI Applications Using Amazon Bedrock, Agentic AI
+  Business Solutions Architect (AB-100), Academy Accreditation - Generative AI
+  Fundamentals (Databricks), Microsoft Certified: Azure Data Engineer
+  Associate, Designing an Azure Data Solution (DP-201), Implementing an
+  Azure Data Solution (DP-200), MCTS SQL Server 2008 Database Development
+  (70-433), Querying Microsoft SQL Server 2012 (70-461)
+
+**Education:**
+
+- Bachelor's degree in Electronics & Communication Engineering, India.
+
+- Computer Programming in National Institute of Information Technology,
+  India.
+
+**Projects Portfolio:**
+
+**\#1 Exxon Mobil Corp – Houston, TX (Remote) \| Lead Data Engineer &
+Palantir Foundry Engineer**
+
+**\[Upstream \| Midstream\] Integrated Upstream Operations & Trading
+Analytics Platform –** Oct 2025 – Present
+
+**Technologies/Stack used: Palantir Foundry (Ontology, Pipeline Builder,
+Contour, Code Repositories, Data Connection, Quiver, Object Explorer),
+AWS S3, AWS Glue, AWS Lambda, Snowflake, Databricks, PySpark, Apache
+Airflow (MWAA), Python, SQL, Power BI**
+
+**Project Description:**
+
+Architected and delivered an Integrated Upstream Operations and Trading
+Analytics Platform on Palantir Foundry for Exxon Mobil's upstream and
+midstream divisions, consolidating production, reservoir, and trading
+data across 50+ upstream assets into a unified Ontology-driven data
+platform. The platform enables real-time production surveillance,
+reservoir performance monitoring, and crude trading analytics — providing
+operations engineers, reservoir teams, and trading desks with a single
+pane of glass for decision-making across exploration, production, and
+commercial operations.
+
+**Roles and Responsibilities:**
+
+- Designed and built Palantir Foundry Ontology model mapping upstream
+  domain entities — wells, reservoirs, formations, production units,
+  injection patterns, leases, and trading counterparties — into
+  interconnected object types with actions, enabling analysts to
+  traverse production-to-trading relationships without writing code.
+
+- Built end-to-end data pipelines using Palantir Pipeline Builder and
+  Code Repositories (PySpark/Python transforms) to ingest, cleanse,
+  and transform raw production data from SCADA, PI historian, and
+  field sensor systems into curated Foundry datasets with full lineage
+  tracking and health checks.
+
+- Configured Palantir Data Connection to sync data from 15+ upstream
+  source systems including SAP EAM, Oracle P6, PI historian, SCADA,
+  and third-party market data feeds (Platts/Argus pricing, EIA
+  fundamentals) into Foundry's data lake on a scheduled and
+  event-driven basis.
+
+- Developed Contour-based interactive analytics dashboards for
+  reservoir engineers and production managers — well-level production
+  curves, decline analysis, waterflood pattern performance, VRR
+  monitoring, and injection optimization views with drill-down from
+  field to individual well level.
+
+- Built Quiver dashboards for trading desk consumption — crude
+  position tracking, P&L attribution, exposure reporting, and
+  counterparty credit balance monitoring across upstream-produced
+  crude barrels flowing into midstream trading operations.
+
+- Implemented Foundry-native data quality checks and pipeline health
+  monitoring using Pipeline Builder health checks, branching logic for
+  data anomaly handling, and automated alerting on data freshness SLA
+  breaches across critical production and trading datasets.
+
+- Designed Ontology Actions for operational workflows — enabling field
+  engineers to trigger well test validations, reservoir engineers to
+  submit VRR threshold overrides, and trading analysts to flag
+  reconciliation exceptions — all governed by Foundry's role-based
+  access control and audit trail.
+
+- Integrated AWS S3 as the external data lake for raw upstream field
+  data staging; orchestrated AWS Glue ETL jobs and Lambda
+  event-driven triggers for pre-processing sensor data before
+  ingestion into Palantir Foundry via Data Connection sync.
+
+- Built PySpark transforms in Foundry Code Repositories implementing
+  reservoir engineering calculations — instantaneous and cumulative
+  VRR, Formation Volume Factor adjustments, decline curve fitting,
+  and production allocation across commingled wells.
+
+- Implemented Foundry's security and governance controls — Markings
+  for data classification (confidential production data, restricted
+  trading positions), project-based access control, and Stemma-driven
+  data lineage for regulatory audit compliance.
+
+- Delivered training sessions and documentation for reservoir
+  engineers, production analysts, and trading teams on Foundry Contour,
+  Object Explorer, and Quiver for self-service analytics adoption
+  across upstream and midstream business units.
+
+**\#2 Exxon Mobil Corp – Houston, TX (Remote) \| Lead Data Engineer**
+
+**Upstream Data Platform – Voidage Replacement Ratio (VRR) Analytics -**
+Oct 2024 – Sep 2025
+
+**Technologies/Stack used: AWS S3, AWS Glue, AWS Lambda, AWS Step
+Functions, AWS CloudWatch, AWS IAM, Amazon Redshift, Snowflake,
+Databricks, PySpark, Apache Airflow (MWAA), dbt (Data Build Tools),
+Fivetran, Streamlit, Python, SQL, Power BI**
+
+**Project Description:**
+
+Designed and delivered a cloud-native Upstream Data Platform on AWS for
+Exxon Mobil's reservoir engineering division to compute, monitor, and
+optimize Voidage Replacement Ratio (VRR) — the critical metric measuring
+the ratio of injected fluid to produced fluid at reservoir conditions.
+VRR optimization is essential for maintaining reservoir pressure,
+maximizing Enhanced Oil Recovery (EOR) performance, and meeting
+regulatory compliance requirements across waterflooding and gas injection
+operations.
+
+**Project Objectives:**
+
+**Real-Time VRR Computation:** Engineered AWS-native data pipelines to
+ingest well-level injection volumes (gas, water) and production volumes
+(oil, gas, water) from upstream SCADA and PI historian systems,
+computing both instantaneous and cumulative VRR across reservoir
+formations on a daily and monthly basis.
+
+**AWS Cloud-Native Architecture:** Architected end-to-end data platform
+on AWS leveraging S3 as the central data lake for raw and processed
+field data, AWS Glue for serverless ETL orchestration, AWS Lambda for
+event-driven ingestion triggers from sensor networks, AWS Step Functions
+for workflow orchestration and pipeline state management, Snowflake on
+AWS as the primary analytical warehouse, and CloudWatch for pipeline
+monitoring, alerting, and operational observability.
+
+**Roles and Responsibilities:**
+
+- Architected and implemented end-to-end VRR data platform on AWS with
+  Snowflake as the analytical warehouse, ingesting well-level injection
+  and production data from upstream field systems via Fivetran connectors
+  and AWS Glue ETL jobs.
+
+- Designed AWS S3 data lake architecture with partitioned landing,
+  staging, and curated zones for raw upstream field data; implemented
+  S3 lifecycle policies for cost-optimized storage tiering and
+  retention management across terabytes of historical production data.
+
+- Built AWS Glue ETL jobs (PySpark) for field data transformation,
+  schema validation, and data quality enforcement; leveraged AWS Glue
+  Data Catalog for centralized metadata management and data discovery
+  across upstream datasets.
+
+- Implemented AWS Lambda functions for event-driven ingestion from
+  sensor networks and SCADA systems, triggering downstream Glue ETL
+  jobs and Snowflake loading workflows on new data arrival.
+
+- Orchestrated end-to-end pipeline execution using AWS Step Functions
+  and Apache Airflow (MWAA) for daily VRR computation, data quality
+  validation, threshold alerting (VRR \< 0.95 or VRR \> 1.05), and
+  automated reservoir engineering report generation.
+
+- Developed dbt models on Snowflake to compute instantaneous VRR
+  (monthly rate basis) and cumulative VRR across reservoir hierarchy
+  levels including well, pattern, formation, and field, applying
+  Formation Volume Factors (FVF) for oil, gas, and water at reservoir
+  conditions.
+
+- Configured AWS CloudWatch dashboards and alarms for pipeline health
+  monitoring, Lambda execution metrics, Glue job SLA tracking, and S3
+  data arrival validation; integrated with SNS for automated alerting
+  to operations teams.
+
+- Implemented AWS IAM policies and Lake Formation permissions for
+  fine-grained access control across data lake zones, ensuring
+  compliance with Exxon Mobil's data governance and security standards.
+
+- Implemented PySpark on Databricks for processing high-volume
+  historical production data backfills and generating cumulative VRR
+  trend analysis across 10+ years of field production history.
+
+- Developed Power BI dashboards surfacing real-time VRR metrics,
+  injection/production balance trends, waterflood pattern performance,
+  and regulatory compliance reporting for reservoir engineers and
+  operations management.
+
+- Reduced VRR calculation time from hours to minutes through optimized
+  CTAS patterns and Snowflake clustering strategies on
+  production/injection fact tables, enabling near real-time reservoir
+  surveillance.
+
+- Built interactive Streamlit application for reservoir engineers to
+  visualize instantaneous and cumulative VRR curves across injection
+  patterns, test VRR threshold scenarios (target range 0.95–1.05), and
+  validate waterflood performance prior to production deployment.
+
+**\#3 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
+Engineer \[Downstream\] Miles Data Ingestion Platform - Jan 2024 – Sep
+2024**
+
+**Technologies/Stack used: Azure Synapse Analytics, Azure Data Factory,
+Synapse Pipelines, Synapse Spark Pools, PySpark, Azure Data Lake Storage
+Gen2, Azure Dedicated SQL Pool, Python, SQL, Power BI**
+
+**Project Objectives:**
+
+Efficient Data Extraction: Extract loyalty program data from vendor
+SFTP sources, encompassing 29 data domains including customer
+information, transactions, loyalty events, settlements, campaigns, and
+surveys critical for Marathon's Miles program operations and analytics.
+
+Scalable Data Processing: Azure Synapse Analytics deployed to handle
+high-volume loyalty data processing with PySpark notebooks for JSON/CSV
+to Parquet conversion, batch processing, and dynamic partitioning to
+ensure seamless handling of daily transactional loads.
+
+Data Transformation and Enrichment: Implemented medallion architecture
+with watermark-based incremental loading for transactional data and
+full-load processing for dimension tables, ensuring data quality through
+schema enforcement, validation, and merge operations into analytical
+schemas.
+
+POS Reporting and Analytics Enablement: Platform enables retail POS
+system reporting including customer segmentation, loyalty program
+performance metrics, campaign effectiveness analysis, offer redemption
+tracking, store-level performance, settlement reconciliation, and
+customer satisfaction insights.
+
+My Roles and Responsibilities:
+
+- Architected and developed end-to-end data ingestion solution
+  processing 29 data domains with parallel execution and automated
+  failure notifications.
+
+- Designed master orchestration pipeline with intelligent routing
+  between incremental and full load processing based on domain
+  configuration.
+
+- Built SFTP ingestion framework implementing watermark-based change
+  data capture for high-volume transactional entities.
+
+- Developed PySpark processing notebooks with predefined schemas for all
+  domains, ETL metadata enrichment, and batch processing capabilities.
+
+- Implemented stored procedures for merge operations across replica,
+  core, and master data schemas with comprehensive execution logging.
+
+- Optimized data processing performance by converting MERGE operations
+  to CTAS patterns, reducing processing times from 12+ hours to under 60
+  minutes.
+
+- Configured Synapse Spark Pool with dynamic allocation and external
+  tables in Dedicated SQL Pool for analytics consumption.
+
+- Architected ADLS container structure following medallion pattern with
+  automated file archival and retention policies.
+
+- Implemented data governance and PII protection controls for customer
+  loyalty data (names, email, phone, payment info) across 29 data
+  domains — applied Dynamic Data Masking on sensitive columns, Row-Level
+  Security policies for role-based access, and column-level encryption
+  in Dedicated SQL Pool to meet CCPA and internal data privacy standards.
+
+- Deployed solution across Dev, QA, and Prod environments with
+  environment-specific configurations and retry policies.
+
+- Collaborated with business stakeholders to understand loyalty
+  analytics requirements and ensure data structures support reporting
+  needs.
+
+**\#4 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
+Engineer**
+
+**\[Midstream\] Commodity Trading Data Platform Modernization –** Jul 2023 – Dec 2023
+
+**Technologies/Stack used: Qlik Replication, Azure
+Synapse Analytics, Azure Data Factory, Azure Data Lake Storage Gen2,
+Dedicated SQL Pool, Azure DevOps, Python, SQL, Power BI**
+
+**Project Description:**
+
+Engineered end-to-end data migration pipelines to modernize a legacy
+commodity trading SQL Server database onto Azure Synapse Analytics,
+spanning 98 master and
+transaction tables across two schemas — a CDC replica layer
+and a curated analytical layer.
+
+**Roles and Responsibilities:**
+
+- Designed and implemented Qlik Replication jobs for CDC-based ingestion
+  into the replica layer, followed by ADF pipelines performing full load
+  and incremental delta loads into the curated layer using watermark-based change
+  tracking across 98 tables.
+
+- Built MERGE-based upsert stored procedures (T-SQL) for complex
+  transaction tables — movement, inventory, financial, and bulk transfer
+  transaction tables handling multiple business entity variants — with schema-aware column mappings.
+
+- Architected parent-child pipeline patterns with concurrency guards, runtime
+  status checks, and automated email alerting to prevent duplicate
+  execution across 15-minute and 30-minute scheduled triggers.
+
+- Implemented watermark persistence framework tracking high/low
+  watermarks per table across multiple processing wave groups, ensuring idempotent
+  reloads and data consistency.
+
+- Integrated Azure Log Analytics for pipeline monitoring and error
+  handling; ensured SLA adherence across Dev, QA, and Production
+  Synapse environments with Azure DevOps CI/CD.
+
+- Built Power BI reporting layer on the curated schema delivering
+  Movement, Movement Transaction, Inventory History, Inventory Forecast,
+  and Bulk Transfer Expense reports for commodity trading analytics and
+  trading operations dashboards.
+
+- Developed Crude Deal Capture Reporting module delivering P&L reports,
+  exposure reports, trade reconciliation reports, bank statements, and
+  credit balance reports — enabling trading desks to track position-level
+  profitability, counterparty credit risk, and settlement reconciliation
+  across crude trading operations.
+
+**\#5 Marathon Petroleum Corp – San Antonio, TX (Remote) \| Lead Data
+Engineer**
+
+**\[Midstream\] SAP EAM Integration -** Jan 2023 – Jun 2023
+
+**Technologies/Stack used: Azure Synapse Analytics, Azure Databricks,
+Azure DevOps, Azure Data Factory, Azure Data Lake, Azure SQL Database,**
+
+**Project Description:**
+
+Led data platform modernization for Marathon Petroleum's SAP Enterprise
+Asset Management (SAPEAM) system hosted on SAP HANA. Designed end-to-end
+ingestion pipelines using Databricks, Azure Data Factory, and CDC Qlik
+Tool to extract, transform, and enrich asset management, maintenance,
+and operational data — enabling data-driven decision-making across
+Marathon's midstream operations.
+
+**Roles and Responsibilities:**
+
+- Provided technical leadership and guidance to the data engineering
+  team, evaluating new tools (dbt, Fivetran) and delivering POCs for
+  Marathon data engineering use cases.
+
+- Designed and implemented data ingestion pipelines to extract data from
+  SAP HANA using CDC Qlik Tool, Databricks, and Azure Data Factory
+  connectors.
+
+- Developed data processing workflows using Databricks and ADF to
+  transform, cleanse, validate, and enrich ingested data from SAPEAM
+  into analytical-ready datasets.
+
+- Implemented data security models and governance controls ensuring
+  compliance with industry regulations and internal policies.
+
+- Designed and maintained data architecture including data models, schema
+  design, and fault-tolerant pipeline patterns with automated monitoring
+  and alerting.
+
+- Optimized ETL pipeline performance by identifying and resolving
+  bottlenecks, improving processing scalability across large-volume
+  asset management datasets.
+
+- Built dbt (Data Build Tools) and Fivetran pipelines as the standard
+  data engineering framework, reducing development time for new data
+  domain onboarding.
+
+- Maintained comprehensive documentation and fostered knowledge sharing
+  across the data engineering team and cross-functional stakeholders.
+
+**\#6 Shell Americas Retail – Houston, TX (Remote) \| Senior Data
+Engineer**
+
+**\[Downstream\] Fuel Rewards Data Platform
+-** May 2022 – Jul 2023
+
+**Azure Synapse Analytics, Azure Databricks (Pyspark), Azure DevOps,
+Azure Data Factory, Azure Storage Gen1 & 2, Azure SQL Database, Azure
+Functions, Python, Spark, Power BI**
+
+**Description:**
+
+Shell Americas Retail requires trusted data for business to quickly make
+key business decisions. Today's data landscape is fragmented, with over
+20 data sources and no single, trusted data repository. This program is
+to identify, design & develop data objects which are critical for
+business use cases identified by a consulting firm to help Shell Fuel
+Rewards Program which is the direct beneficiary of this data platform.
+
+1.  Data Ingestion – Connect to all source systems (All Retail OLTP
+    applications) and ingest data.
+
+2.  Data Curation – Understanding business logics and applying
+    transformations to the ingested data.
+
+3.  Data Governance – Implementing various controls on the sensitive
+    data (PII, Financial Information etc.)
+
+4.  Visualization – Design and Develop Power bi Dashboard & Reports
+
+    **Responsibilities:**
+
+- Design & Develop Ingestion module, process files into staging layer for
+  curation readiness
+
+- Design & Develop Databricks notebooks to process the source files –
+  Handling Incremental and Full load scenarios.
+
+- Implemented comprehensive data governance for Fuel Rewards customer
+  PII (SSN, payment cards, loyalty IDs, contact info) — Column-Level
+  Security with Dynamic Data Masking in Databricks, Row Access Policies
+  for role-based data isolation, and data classification tagging to
+  comply with internal risk management, GDPR, and CCPA requirements.
+
+- Design & Develop ADF pipelines for orchestrating the Databricks
+  Notebooks
+
+- Parallelly process ingress files and process them into staging layer for curation
+
+- Design & Develop DB Notebooks to automate SCD Type 2 process.
+
+- Design & Develop Data Security for PII (Personally Identifiable
+  Information) as per internal risk management policies
+
+- Design and Develop CI/CD for ADF, Azure Databricks and Web Interface
+
+**\#7 Shell Energy Trading – Houston, TX (Remote) \| Senior Data
+Engineer**
+
+**\[Midstream\] Lepton -** Aug 2020 – May 2022
+
+**Azure Databricks, Azure DevOps, Azure Data Factory, Azure Storage
+Gen1, Azure SQL Database, Azure Synapse Analytics, Azure Functions,
+Python, Spark, React JS and C#.Net.**
+
+**Description:**
+
+Built an enterprise data lake platform for natural gas and power
+trading, providing traders with a consolidated view of P&L, risk
+exposure, transaction limits, and volumetric reporting. The platform
+automates end-to-end data onboarding including:
+
+1.  Data Ingestion – from all enterprise and external data sources
+
+2.  Data Synchronization – SCD (Types) to keep data synchronized with
+    the source.
+
+3.  Data Governance – cataloging, data lineage, metadata management,
+    audit, and history
+
+4.  Configuration Management – Web UI to manage configurations
+    requirement for the above process.
+
+    **Responsibilities:**
+
+- Draft the requirements and solutioning the project.
+
+- Create Databricks notebooks to ingest the source files.
+
+- Design & Develop ADF pipelines for orchestrating the Databricks
+  Notebooks
+
+- Design & Develop DB Notebooks to automate SCD Type 2 Dimension
+  creation process.
+
+- Design Folders structure in ADLS file system to hold the data files.
+
+- Architect and develop Web Interface for configuration management and
+  Data Quality Control
+
+- Design and Develop CI/CD for ADF, Azure Databricks and Web Interface
+
+- Migrate business logic from PL/SQL logic to Azure Synapse Analytics
+
+**\#8 Phillips66 – Houston, TX (Remote) \| Senior Data Engineer**
+
+**\[Midstream \| Downstream\] Price Optimization – Value Chain Supply
+Optimization** Aug 2019 – Aug 2020
+
+**Azure Databricks (Pyspark), Azure DevOps, Azure Data Factory, Azure
+Storage Gen2, Azure Functions, MuleSoft, Python, Spark**
+
+**Description:**
+
+Built a value chain supply optimization platform for daily use by
+refinery planning, commercial trading, marketing, and pricing teams.
+The platform replaced spreadsheet-based optimization with a centralized
+system providing consistent data and analytics. Key modules include
+margin analysis, crude placement dashboards, market pricing forecasts,
+and inter-month product demand forecasting.
+
+**Responsibilities:**
+
+- Conducting user interviews with Data Analysts and getting the user
+  requirements
+
+- Drafting/Finalizing the requirements based on the user needs and
+  prepare MVPs/POCs on various concepts.
+
+- Design, Develop Azure Databricks Notebooks for data curation.
+
+- Create Custom Notebook Scoped Python libraries and make generic usage
+  of classes, use modular programming techniques to define ETL for
+  reusability.
+
+- Ingest data from different type of Data Sources and schedule them on
+  the desired frequency.
+
+- Integrate data from other system APIs using MuleSoft.
+
+- Designing Bronze, Silver and Gold level standard staging in ADLS
+  Storage for storing data from multiple data sources
+
+- Design, develop dimensional model in MPP using Azure Synapse Analytics
+  (DWH)
+
+- Orchestrate Data Flows with Azure Data Factory
+
+- Storing data in Data Lake using Delta Lake Storage format and leverage
+  the advantages of using delta lake.
+
+- Implementing Slowly Changing Dimensions for historical tracking in
+  Azure Data Lake using Delta Lake Storage Technologies
+
+- Develop Databricks notebooks to evaluate Formulas and store data in
+  Facts along with Dimension Keys
+
+- Develop ADF Pipelines Templates for replicating data from JSON,
+  Parquet & Delta format into Azure SQL DB & Azure Synapse Analytics
+
+- Build CI & CD Pipelines for Azure Databricks, Azure Data Factory and
+  Azure SQL DB Scripts
+
+- Design develop UX design for few master data managements using .NET
+  Technologies.
+
+- Integrate traditional SSIS Packages with ADF pipelines.
+
+**Rackspace** – **San Antonio,** Texas.
+
+**\#9 Net Revenue Detail** Dec 2018-Aug 2019
+
+**Azure Data Lake Analytics, Azure Data warehouse, Azure Data Factory,
+Azure Data Lake, On Premises SQL Server, SSIS, GIT, JIRA, ASP.Net,
+PowerShell, and Jenkins.**
+
+**Role:** Senior Data Engineer
+
+**Team:** Global Data Team
+
+**Description:**
+
+Migrated an on-premises net revenue analytics dataset from SQL Server
+to Azure Data Warehouse while maintaining downstream reporting
+compatibility.
+
+- Design & Develop migration strategy for the existing dataset
+  components from on premises to Azure Data Warehouse and ETL process to
+  Azure Data Lake Analytics.
+
+- Design & Develop batch processing solutions by using Data Factory and
+  Azure Databricks
+
+- Refactoring & migrating existing staging on premises data load (SSIS &
+  Informatica) processes.
+
+- Implementing Recycling of Facts in ADF Pipelines.
+
+- Create ADF Pipelines for Dimensions (SCD Types - 2) and Fact Loads
+
+- Benchmarked load performance across Azure Data Lake Analytics, Data
+  Factory pipelines, and native SSIS packages to determine optimal
+  migration strategy.
+
+- Exploring and adopting the best pricing model by analyzing the current
+  azure pricing trends.
+
+- Understand new Data Sources/Data Models and design the enhancements
+  after conducting Impact Analysis.
+
+- Integrate new data sources into DWH by involving in
+  designing/architecting the process.
+
+**Rackspace** – **San Antonio,** Texas.
+
+**\#10 Environment Consolidation/EDW Maintenance & Enhancements** April
+2017-Dec 2018
+
+**SQL Server, Informatica, SSIS, GIT, JIRA, MongoDB, PostgreSQL, MySQL,
+Power BI**
+
+**Role:** Senior Data Engineer
+
+**Team:** Global Data Team
+
+**Description:**
+
+Consolidating different datasets into DWH basically building an
+integrated data platform which contains every business vertical data in
+Rackspace like Oracle-BRM, Oracle-EBS, Salesforce CRM, Microsoft Azure,
+Google Cloud Platform, Amazon Web Services, Custom CMS, AD etc. across
+US and UK operations.
+
+**Responsibilities:**
+
+- Built custom Database Schema Migration tool that auto-generates SSIS
+  packages between any two RDBMS platforms, reducing migration effort
+  across Oracle-BRM, Oracle-EBS, Salesforce CRM, and cloud platform
+  datasets.
+
+- Developed Data Audit Framework that auto-validates and corrects data
+  quality issues including SCD type date alignments and missing natural
+  key constraints.
+
+- Implemented CI/CD automation for SSIS and Azure Data Factory pipelines;
+  migrated data workloads from on-premises SQL Server to Azure SQL
+  Database.
+
+- Designed Logical (ER) and Physical data models for star schema;
+  built data marts, SSAS cubes, and SSRS reports for downstream
+  business reporting across US and UK operations.
+
+- Integrated 10+ API data sources (Oracle-BRM, Oracle-EBS, Salesforce
+  CRM, AWS, GCP, Azure) into unified EDW using SSIS and standardized
+  ETL templates.
+
+- Designed and developed Power BI dashboards including geo-spatial
+  bubble maps with On-Premises Data Gateway, published to mobile;
+  created DAX measures and KPIs for executive reporting.
+
+- Optimized SSAS cube processing through partition management, AMO
+  aggregation strategies, and SQL Server indexing/table partitioning
+  to improve query performance.
+
+- Published SSAS Cube over HTTPS through IIS for SAP BO report
+  consumption; managed weekly/monthly build and deployment cycles.
+
+**Forterra – Dallas, Texas.**
+
+**\#11 Forterra DW Project** – Forterra Building Products, **Irving,**
+Texas. Feb 2016-April 2017
+
+**SQL Server 2012, SSIS, SSAS, SSRS, Tableau, Windows Server, Oracle –
+Toad, SAP BO.**
+
+**Role:** Lead Data Engineer
+
+**Description:**
+
+**Forterra-Enterprise Data warehouse**
+
+Building Forterra has acquired three organizations each have their own
+ERP (SAP, Style Line, Titan) Systems, which needs to be integrated for
+dashboard and reporting needs. Forterra DW is a DWH project, which
+acquires data from all ERP data systems using SSIS ETL packages built on
+SQL Server 2012. Further data needs to be presented in various
+granularities and in different contexts for analysis using dashboards
+and reporting requirements converting data into information.
+
+**Responsibilities:**
+
+- Designed the enterprise data warehouse integrating three acquired
+  organizations' ERP systems (SAP, Style Line, Titan) into a unified
+  star schema model.
+
+- Designed Logical (ER) and Physical data models; developed SSIS ETL
+  processes to extract, transform, and load data from multiple ERP
+  sources into the consolidated data warehouse.
+
+- Built SSAS Multidimensional cubes with MDX calculations; optimized
+  cube processing through partitioning, AMO aggregation strategies,
+  and SQL Server table partitioning.
+
+- Designed and developed SSRS reports for data loading health monitoring
+  and business reporting; wrote custom C#.Net and VB.Net code for SSIS
+  and SSRS customizations.
+
+- Created Power BI dashboards for Forterra's main LOB including
+  geo-spatial bubble maps with On-Premises Data Gateway; published to
+  mobile with DAX measures and KPIs.
+
+- Published SSAS Cube over HTTPS through IIS for SAP BO report
+  consumption; led code reviews and maintained coding standards across
+  the development team.
+
+**IQVIA – Bangalore, India**
+
+**\#12 InterACT** – Bristol-Myers Squibb January 2014-Feb 2016
+
+**SQL Server 2008 R2, SSIS, SSAS, SSRS, Windows Server, Oracle – Toad.**
+
+**Role:** Lead Data Engineer
+
+**Description:**
+
+BMS-InterACT is a DWH project which derives data from various data
+sources (CRM) using SSIS ETL packages built on SQL Server 2012. Data
+from different business category needs to be presented in DataMart's
+acting as source for downstream reporting. Further data will be analyzed
+in terms of Drug Sales, Growth and Incentive programs through sales
+data.
+
+**Responsibilities:**
+
+- Led the team in requirements gathering, design, coding, and testing;
+  provided effort estimates and prepared BRD, FRD, and TDD documents.
+
+- Designed Logical and Physical data models; built standard SSIS ETL
+  templates used across the project for data loading from CRM sources
+  to data marts and vendor flat file generation.
+
+- Built SSAS cubes and SSRS reports for downstream drug sales, growth,
+  and incentive program analytics; optimized dimension and partition
+  processing performance.
+
+- Mentored junior team members through application/technical sessions;
+  led code reviews and maintained coding standards.
+
+- Designed and developed Power BI reports and dashboards (POC) with
+  custom DAX calculations for BMS sales analytics.
+
+**\#13 OEM Activation (OA 3.0) & \#14 LOTUS BIE** – Microsoft, Redmond, WA. March 2012 – November 2013 (Concurrent)
+
+**SQL Server 2012, SSAS, SSRS, SSIS, Informatica, Windows Server 2008**
+
+**Role:** Senior BI Developer
+
+**Description:**
+
+Concurrently delivered two BI analytics projects at Microsoft: OA 3.0
+(OEM Activation supply chain reporting for OEM Operations, Business Group Finance,
+and Anti-Piracy teams) and LOTUS BIE (business intelligence platform
+for India regulatory compliance and partner activity separation).
+
+**Responsibilities:**
+
+- Created and tuned complex SQL queries, stored procedures, views, and
+  database objects; designed dimensional models and SSAS cubes for both
+  projects.
+
+- Designed and developed SSRS reports and SSAS cube analytics serving
+  Microsoft OEM Operations, Business Group Finance, and Anti-Piracy stakeholders.
+
+- Implemented cube performance tuning including partitioning strategies,
+  aggregation optimization via AMO library, and MDX query optimization.
+
+- Created SSIS packages for OLTP-to-OLAP data transfer; developed
+  stored procedures and SQL Jobs for automated processing.
+
+- Improved SQL Server performance through indexing strategies and table
+  partitioning across both project databases.
+
+- Developed and executed test strategies, test cases, and validation
+  frameworks supporting deployment quality assurance.
+
+---
+
+**Earlier Career (2006 – 2012)**
+
+**\#15 Joint Business Program** – Procter & Gamble (P&G), Cincinnati, OH. October 2011 – March 2012
+**Role:** BI Developer & Front-end Developer | **Stack:** SQL Server, SSIS, SSRS, Excel Macros
+
+**\#16 BI Project** – SKS Microfinance, Hyderabad, India. February 2009 – October 2011
+**Role:** Database Developer & .Net Developer | **Stack:** SQL Server, SSIS, SSAS, SSRS, Excel Macros
+
+**\#17 Finops** – SKS Microfinance, Hyderabad, India. September 2009 – March 2011
+**Role:** .Net Developer | **Stack:** ASP.NET, VB.NET, SQL Server, SSIS, HTML, CSS
+
+**\#18 Perth Leadership** – Hyderabad, India. November 2006 – October 2008
+**Role:** .Net Developer | **Stack:** ASP.NET, VB.NET, SQL Server, HTML, CSS
