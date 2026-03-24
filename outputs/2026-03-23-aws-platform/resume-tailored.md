@@ -2,8 +2,6 @@
 
 **Lead Data Engineer | Agentic AI Solutions Architect**
 
-**+1 346-666-1192** | vamshi455@gmail.com | [LinkedIn](https://www.linkedin.com/in/vamshi-singam-82963556/) | [GitHub](https://github.com/vamshi455)
-
 **Professional Summary:**
 
 - Lead Data Engineer and AI Solutions Architect with 20+ years of
