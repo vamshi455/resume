@@ -60,5 +60,5 @@ Markdown-first resume management: master resume as single source of truth, tailo
 - Always convert md → docx when user approves changes
 - Tailored resumes go in `outputs/`, never overwrite master
 - Resume must NOT exceed 10 pages. If content pushes beyond 10 pages, reduce font size in the pandoc reference doc or export command — never cut content.
-- Every page of the docx must have a two-column header: LEFT side = Name + Mobile number, RIGHT side = LinkedIn + GitHub links. Footer must contain page number (centered). Use `resume/reference-compact.docx` as the pandoc reference doc to enforce this.
+- No visible header bar or footer in the docx. LinkedIn and GitHub URLs must appear top-right on every page (via Word header area, right-aligned, no borders, no other content). The export script `scripts/export_to_pdf.sh` handles this via `scripts/add_header_footer.py` post-processing.
 - Refer to `PROJECT_CONTEXT.md` for profile, style, and constraints
