@@ -59,4 +59,5 @@ Markdown-first resume management: master resume as single source of truth, tailo
 - `resume/master.md` is the single source of truth
 - Always convert md → docx when user approves changes
 - Tailored resumes go in `outputs/`, never overwrite master
+- Resume must NOT exceed 10 pages. If content pushes beyond 10 pages, reduce font size in the pandoc reference doc or export command — never cut content.
 - Refer to `PROJECT_CONTEXT.md` for profile, style, and constraints
