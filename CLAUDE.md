@@ -10,12 +10,11 @@ Markdown-first resume management: master resume as single source of truth, tailo
 ├── PROJECT_CONTEXT.md       # Profile, constraints, style preferences
 ├── resume/
 │   ├── master.md            # Single source of truth (edit this)
+│   ├── reference-compact.docx # Pandoc reference doc for styling
 │   ├── templates/           # Role-based tailoring guides
 │   │   ├── ai-engineer.md
 │   │   ├── data-eng-lead.md
 │   │   └── solutions-arch.md
-│   ├── history/             # Snapshots of master at key milestones
-│   │   └── 2026-03-20-master-v1.md
 │   └── *.docx               # Exported docx versions
 ├── requirements/            # Job descriptions / role requirements
 │   └── {date}-{company}-{role}.md
@@ -50,7 +49,6 @@ Markdown-first resume management: master resume as single source of truth, tailo
 
 ## Versioning
 - `resume/master.md` — always the latest version, git tracks history
-- `resume/history/` — manual snapshots at key milestones
 - Docx files: filename includes version or company name
 
 ## Rules
@@ -60,5 +58,5 @@ Markdown-first resume management: master resume as single source of truth, tailo
 - Always convert md → docx when user approves changes
 - Tailored resumes go in `outputs/`, never overwrite master
 - Resume must NOT exceed 10 pages. If content pushes beyond 10 pages, reduce font size in the pandoc reference doc or export command — never cut content.
-- No header or footer in the docx — the export script `scripts/export_to_pdf.sh` strips all header/footer content via `scripts/add_header_footer.py` post-processing.
+- No Word header or footer in the docx — the export script strips all header/footer content via post-processing. LinkedIn and GitHub URLs are placed top-right in the document body (HTML table in markdown) aligned with the name and role — not in the Word header area.
 - Refer to `PROJECT_CONTEXT.md` for profile, style, and constraints

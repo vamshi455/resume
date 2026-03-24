@@ -1,6 +1,14 @@
-# Vamshi Singam
+<table width="100%"><tr><td>
 
+# Vamshi Singam
 **Lead Data Engineer | Agentic AI Solutions Architect**
+
+</td><td align="right" valign="top" style="white-space:nowrap;">
+
+linkedin.com/in/vamshi-singam-82963556
+github.com/vamshi455
+
+</td></tr></table>
 
 **Professional Summary:**
 
