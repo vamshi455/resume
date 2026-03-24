@@ -82,7 +82,8 @@
 
 **Certifications:**
 
-- Building Generative AI Applications Using Amazon Bedrock, Agentic AI
+- Foundry & AIP Builder Foundations (Palantir Technologies), Building
+  Generative AI Applications Using Amazon Bedrock, Agentic AI
   Business Solutions Architect (AB-100), Academy Accreditation - Generative AI
   Fundamentals (Databricks), Microsoft Certified: Azure Data Engineer
   Associate, Designing an Azure Data Solution (DP-201), Implementing an
