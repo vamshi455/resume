@@ -13,29 +13,6 @@ from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 
 
-def add_hyperlink(paragraph, header_part, text, url, font_size_pt, hex_color):
-    r_id = header_part.relate_to(
-        url,
-        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
-        is_external=True,
-    )
-    nsmap = (
-        'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
-        'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"'
-    )
-    sz = int(font_size_pt * 2)
-    xml = (
-        f'<w:hyperlink {nsmap} r:id="{r_id}">'
-        f'<w:r><w:rPr>'
-        f'<w:color w:val="{hex_color}"/>'
-        f'<w:sz w:val="{sz}"/><w:szCs w:val="{sz}"/>'
-        f'<w:u w:val="single"/>'
-        f'</w:rPr><w:t>{text}</w:t></w:r>'
-        f'</w:hyperlink>'
-    )
-    paragraph._element.append(parse_xml(xml))
-
-
 def add_page_field(paragraph, field_name="PAGE"):
     r = paragraph.add_run()
     r.font.size = Pt(7)
@@ -66,7 +43,6 @@ def process(input_path, output_path=None):
         # ── HEADER ──
         header = section.header
         header.is_linked_to_previous = False
-        header_part = header.part
 
         for p in list(header.paragraphs):
             header._element.remove(p._element)
@@ -130,19 +106,17 @@ def process(input_path, output_path=None):
         r = lp.add_run("vamshi455@gmail.com")
         r.font.size = Pt(7.5); r.font.color.rgb = RGBColor(0x44, 0x44, 0x44)
 
-        # RIGHT: LinkedIn • GitHub (clickable)
+        # RIGHT: LinkedIn URL • GitHub URL (plain text, no hyperlinks)
         rp = tbl.cell(0, 1).paragraphs[0]
         rp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
         rp.paragraph_format.space_after = Pt(1)
         rp.paragraph_format.space_before = Pt(0)
 
-        add_hyperlink(rp, header_part,
-                      "LinkedIn", "https://www.linkedin.com/in/vamshi-singam-82963556/",
-                      7.5, "0077B5")
+        r = rp.add_run("linkedin.com/in/vamshi-singam-82963556")
+        r.font.size = Pt(7.5); r.font.color.rgb = RGBColor(0x00, 0x77, 0xB5)
         dot_sep(rp)
-        add_hyperlink(rp, header_part,
-                      "GitHub", "https://github.com/vamshi455",
-                      7.5, "333333")
+        r = rp.add_run("github.com/vamshi455")
+        r.font.size = Pt(7.5); r.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
 
         # ── FOOTER ──
         footer = section.footer
