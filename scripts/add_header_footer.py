@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Post-process a pandoc-generated docx:
 - Remove all headers and footers
+- Expand all tables to full page width with justified paragraphs
 - Convert LinkedIn/GitHub plain text URLs to clickable hyperlinks
 
 Usage: python3 scripts/add_header_footer.py <input.docx> [output.docx]
@@ -10,9 +11,10 @@ import sys
 import re
 import copy
 from docx import Document
-from docx.shared import Pt, Emu
+from docx.shared import Pt, Emu, Inches, Cm
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 
 HYPERLINK_MAP = {
@@ -45,6 +47,46 @@ def make_hyperlink(paragraph, run, url, text):
     hyperlink.append(new_run)
 
     run._element.getparent().replace(run._element, hyperlink)
+
+
+def fix_tables(doc):
+    """Expand all tables to full page width and justify paragraph text."""
+    for section in doc.sections:
+        page_width = section.page_width - section.left_margin - section.right_margin
+        break
+    else:
+        page_width = Inches(6.5)  # fallback
+
+    for table in doc.tables:
+        # Set table to full page width
+        tbl = table._tbl
+        tbl_pr = tbl.tblPr
+        if tbl_pr is None:
+            tbl_pr = OxmlElement("w:tblPr")
+            tbl.insert(0, tbl_pr)
+
+        # Set table width to 100% (pct = 5000 = 100%)
+        tbl_w = tbl_pr.find(qn("w:tblW"))
+        if tbl_w is None:
+            tbl_w = OxmlElement("w:tblW")
+            tbl_pr.append(tbl_w)
+        tbl_w.set(qn("w:w"), "5000")
+        tbl_w.set(qn("w:type"), "pct")
+
+        # Set layout to autofit
+        tbl_layout = tbl_pr.find(qn("w:tblLayout"))
+        if tbl_layout is None:
+            tbl_layout = OxmlElement("w:tblLayout")
+            tbl_pr.append(tbl_layout)
+        tbl_layout.set(qn("w:type"), "autofit")
+
+    # Justify all body paragraphs (not inside tables, not headings)
+    for paragraph in doc.paragraphs:
+        style_name = paragraph.style.name if paragraph.style else ""
+        if style_name.startswith("Heading"):
+            continue
+        if paragraph.text.strip():
+            paragraph.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
 
 
 def linkify_urls(doc):
@@ -100,6 +142,9 @@ def process(input_path, output_path=None):
         fp = footer.add_paragraph()
         fp.paragraph_format.space_after = Pt(0)
         fp.paragraph_format.space_before = Pt(0)
+
+    # Expand all tables to full page width and justify paragraphs
+    fix_tables(doc)
 
     # Convert plain-text URLs to hyperlinks
     linkify_urls(doc)
